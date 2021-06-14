@@ -1,3 +1,0 @@
-[submodule "deps/cadmium"]
-	path = deps/cadmium
-	url = https://github.com/KyleBjornson/cadmium.git
