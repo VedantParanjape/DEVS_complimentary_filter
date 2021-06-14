@@ -1,5 +1,12 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/cmake,c++
+# Edit at https://www.toptal.com/developers/gitignore?templates=cmake,c++
+
+### C++ ###
+# Prerequisites
+*.d
+
 # Compiled Object files
-**/.DS_Store
 *.slo
 *.lo
 *.o
@@ -8,6 +15,12 @@
 # Precompiled Headers
 *.gch
 *.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
 
 # Compiled Dynamic libraries
 *.so
@@ -29,27 +42,23 @@
 *.out
 *.app
 
-**/cmake-build-debug
-**/CMakeCache.txt
-**/cmake_install.cmake
-**/install_manifest.txt
-**/CMakeFiles/
-**/CTestTestfile.cmake
-**/Makefile
-**/*.cbp
-**/CMakeScripts
-**/compile_commands.json
+### CMake ###
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+CMakeUserPresets.json
+bin/
 
-include/divisible/*
-
-
-## Local 
-
-.idea/*.xml
-
-build/**/*
-
-include/*
-lib/*
-bin/*
-test/test_runner
+### CMake Patch ###
+# External projects
+*-prefix/
+cadmium/
+# End of https://www.toptal.com/developers/gitignore/api/cmake,c++
