@@ -16,11 +16,6 @@ set(DIVISION_HEADERS_DIR ${PROJECT_SOURCE_DIR}/src/division)
 include_directories(${DIVISIBLE_INSTALL_INCLUDE_DIR})
 include_directories(${DIVISION_HEADERS_DIR})
 
-FetchContent_Declare(
-  catch
-  GIT_REPOSITORY https://github.com/catchorg/Catch2.git
-  GIT_TAG        v2.13.0
-)
 
 # find_package( Boost REQUIRED )
 # include_directories( ${Boost_INCLUDE_DIR} )
