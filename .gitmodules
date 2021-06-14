@@ -1,0 +1,3 @@
+[submodule "cadmium"]
+	path = cadmium
+	url = https://github.com/KyleBjornson/cadmium.git
