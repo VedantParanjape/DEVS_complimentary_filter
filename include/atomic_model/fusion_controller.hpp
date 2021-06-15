@@ -1,0 +1,4 @@
+#ifndef __FUSION_CONTROLLER_HPP__
+#define __FUSION_CONTROLLER_HPP__
+
+#endif

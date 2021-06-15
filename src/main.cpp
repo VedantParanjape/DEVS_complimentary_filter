@@ -15,6 +15,12 @@
 #include <cadmium/logger/common_loggers.hpp>
 #include <cadmium/io/iestream.hpp>
 
+#include <algorithm/complimentary_filter.hpp>
+#include <atomic_model/accelerometer.hpp>
+#include <atomic_model/fusion_controller.hpp>
+#include <atomic_model/gyroscope.hpp>
+#include <atomic_model/imu_controller.hpp>
+
 int main()
 {
     std::cout << "Hello world\n";

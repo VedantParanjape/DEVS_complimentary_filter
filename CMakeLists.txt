@@ -21,7 +21,7 @@ set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
 
-# Check for required packages
+# Check for required packages (for boost)
 
 # Specify Build type
 if(NOT CMAKE_BUILD_TYPE)
@@ -30,8 +30,8 @@ endif()
 
 ######## SOURCES ########
 # Add source files and header files
-file(GLOB PROJECT_HEADERS include/*.hpp)
-file(GLOB PROJECT_SOURCES src/*.cpp)
+file(GLOB PROJECT_SOURCES src/*.cpp src/algorithm/*.cpp src/atomic_model/*.cpp)
+include_directories("include")
 include_directories("cadmium/include")
 include_directories("cadmium/DESTimes/include")
 set(PROJECT_FILES
