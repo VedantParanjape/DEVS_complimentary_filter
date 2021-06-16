@@ -22,19 +22,25 @@ std::vector<float> read_accelerometer()
 //Port definition
 struct accelerometer_ports
 {
-    struct out : public out_port<std::vector<float>>
-    {
-    };
+    struct out_x : public out_port<float> {};
+    struct out_y : public out_port<float> {};
+    struct out_z : public out_port<float> {};
 };
+
+typedef struct sensor_state_accel_
+{
+    std::vector<float> accel;
+} sensor_state_accel;
 
 template <typename TIME>
 class accelerometer
 {
 private:
     TIME refresh_rate;
+    sensor_state_accel state;
 
 public:
-    using output_ports = tuple<typename accelerometer_ports::out>;
+    using output_ports = tuple<typename accelerometer_ports::out_x, typename accelerometer_ports::out_y, typename accelerometer_ports::out_z>;
     
     // default constructor
     accelerometer() noexcept
@@ -48,15 +54,27 @@ public:
         refresh_rate = refresh_rate_sensor;
     }
 
+    // internal transition function
+    void internal_transition()
+    {
+        state.accel = read_accelerometer();
+    }
+
+    // confluence transition function
+    void confluence_transition(TIME e, typename make_message_bags<output_ports>::type mbs) 
+    {
+        internal_transition();
+    }
+
     // output function
     typename make_message_bags<output_ports>::type output() const
     {
         typename make_message_bags<output_ports>::type bags;
-        vector<std::vector<float>> bag_port_out;
 
-        bag_port_out.push_back(read_accelerometer());
-        get_messages<typename accelerometer_ports::out>(bags) = bag_port_out;
-        
+        get_messages<typename accelerometer_ports::out_x>(bags).push_back(state.accel[0]);
+        get_messages<typename accelerometer_ports::out_y>(bags).push_back(state.accel[1]);
+        get_messages<typename accelerometer_ports::out_z>(bags).push_back(state.accel[2]);
+
         return bags;
     }
 

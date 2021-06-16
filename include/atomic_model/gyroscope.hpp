@@ -12,7 +12,7 @@
 using namespace cadmium;
 using namespace std;
 
-// dummy accelerometer read function
+// dummy gyroscope read function
 std::vector<float> read_gyroscope()
 {
     std::vector<float> ret_val = {1.0, 2.0, 3.0};
@@ -22,19 +22,26 @@ std::vector<float> read_gyroscope()
 //Port definition
 struct gyroscope_ports
 {
-    struct out : public out_port<std::vector<float>>
-    {
-    };
+    struct out_x : public out_port<float> {};
+    struct out_y : public out_port<float> {};
+    struct out_z : public out_port<float> {};
 };
+
+typedef struct sensor_state_gyro_
+{
+    std::vector<float> gyro;
+} sensor_state_gyro;
+
 
 template <typename TIME>
 class gyroscope
 {
 private:
     TIME refresh_rate;
+    sensor_state_gyro state;
 
 public:
-    using output_ports = tuple<typename gyroscope_ports::out>;
+    using output_ports = tuple<typename gyroscope_ports::out_x, typename gyroscope_ports::out_y, typename gyroscope_ports::out_z>;
     
     // default constructor
     gyroscope() noexcept
@@ -48,15 +55,27 @@ public:
         refresh_rate = refresh_rate_sensor;
     }
 
+    // internal transition function
+    void internal_transition()
+    {
+        state.gyro = read_gyroscope();
+    }
+
+    // confluence transition function
+    void confluence_transition(TIME e, typename make_message_bags<output_ports>::type mbs) 
+    {
+        internal_transition();
+    }
+
     // output function
     typename make_message_bags<output_ports>::type output() const
     {
         typename make_message_bags<output_ports>::type bags;
-        vector<std::vector<float>> bag_port_out;
 
-        bag_port_out.push_back(read_gyroscope());
-        get_messages<typename gyroscope_ports::out>(bags) = bag_port_out;
-        
+        get_messages<typename gyroscope_ports::out_x>(bags).push_back(state.gyro[0]);
+        get_messages<typename gyroscope_ports::out_y>(bags).push_back(state.gyro[1]);
+        get_messages<typename gyroscope_ports::out_z>(bags).push_back(state.gyro[2]);
+
         return bags;
     }
 
