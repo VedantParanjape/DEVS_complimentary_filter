@@ -34,6 +34,7 @@ private:
     TIME refresh_rate;
 
 public:
+    using input_ports = tuple<>;
     using output_ports = tuple<typename accelerometer_ports::out_x, typename accelerometer_ports::out_y, typename accelerometer_ports::out_z>;
     
     // default constructor
@@ -61,7 +62,7 @@ public:
     }
 
     // confluence transition function
-    void confluence_transition(TIME e, typename make_message_bags<output_ports>::type mbs) 
+    void confluence_transition(TIME e, typename make_message_bags<input_ports>::type mbs) 
     {
         internal_transition();
     }
