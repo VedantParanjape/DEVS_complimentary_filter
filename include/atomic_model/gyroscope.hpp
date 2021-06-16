@@ -27,18 +27,11 @@ struct gyroscope_ports
     struct out_z : public out_port<float> {};
 };
 
-typedef struct sensor_state_gyro_
-{
-    std::vector<float> gyro;
-} sensor_state_gyro;
-
-
 template <typename TIME>
 class gyroscope
 {
 private:
     TIME refresh_rate;
-    sensor_state_gyro state;
 
 public:
     using output_ports = tuple<typename gyroscope_ports::out_x, typename gyroscope_ports::out_y, typename gyroscope_ports::out_z>;
@@ -54,6 +47,12 @@ public:
     {
         refresh_rate = refresh_rate_sensor;
     }
+
+    struct state_type
+    {
+        std::vector<float> gyro;
+    }; 
+    state_type state;
 
     // internal transition function
     void internal_transition()

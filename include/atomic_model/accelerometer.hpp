@@ -27,17 +27,11 @@ struct accelerometer_ports
     struct out_z : public out_port<float> {};
 };
 
-typedef struct sensor_state_accel_
-{
-    std::vector<float> accel;
-} sensor_state_accel;
-
 template <typename TIME>
 class accelerometer
 {
 private:
     TIME refresh_rate;
-    sensor_state_accel state;
 
 public:
     using output_ports = tuple<typename accelerometer_ports::out_x, typename accelerometer_ports::out_y, typename accelerometer_ports::out_z>;
@@ -53,6 +47,12 @@ public:
     {
         refresh_rate = refresh_rate_sensor;
     }
+
+    struct state_type
+    {
+        std::vector<float> accel;
+    }; 
+    state_type state;
 
     // internal transition function
     void internal_transition()
