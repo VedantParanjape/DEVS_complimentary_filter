@@ -26,9 +26,80 @@ struct imu_controller_ports
     struct out_accel : public out_port<std::vector<float>> {};
 };
 
-// typedef struct imu_controller_state_
-// {
+template <typename TIME>
+class imu_controller
+{
+public:
+    using input_ports = tuple<typename imu_controller_ports::in_acc_x, typename imu_controller_ports::in_acc_y,
+                                typename imu_controller_ports::in_acc_z, typename imu_controller_ports::in_gyro_x,
+                                  typename imu_controller_ports::in_gyro_y, typename imu_controller_ports::in_gyro_z>;
+    using output_ports = tuple<typename imu_controller_ports::out_gyro, typename imu_controller_ports::out_accel>;
 
-// } imu_controller_state;
+    imu_controller() noexcept
+    {
+        state.active = false;
+    }
+
+    struct state_type
+    {
+        std::vector<float> accel_readings;
+        std::vector<float> gyro_readings;
+        bool active;
+    };
+    state_type state;
+
+    // internal transition function
+    void internal_transition()
+    {
+        state.active = false;
+    }
+
+    // external transition function
+    void external_transition(TIME e, typename make_message_bags<input_ports>::type mbs)
+    {
+        state.accel_readings.push_back(get_messages<typename imu_controller_ports::in_acc_x>(mbs)[0]);
+        state.accel_readings.push_back(get_messages<typename imu_controller_ports::in_acc_y>(mbs)[0]);
+        state.accel_readings.push_back(get_messages<typename imu_controller_ports::in_acc_z>(mbs)[0]);
+
+        state.gyro_readings.push_back(get_messages<typename imu_controller_ports::in_gyro_x>(mbs)[0]);
+        state.gyro_readings.push_back(get_messages<typename imu_controller_ports::in_gyro_y>(mbs)[0]);
+        state.gyro_readings.push_back(get_messages<typename imu_controller_ports::in_gyro_z>(mbs)[0]);
+
+        state.active = true;
+    }
+
+    // confluent transition function
+    void confluence_transition(TIME e, typename make_message_bags<input_ports>::type mbs)
+    {
+        internal_transition();
+        external_transition(TIME(), std::move(mbs));
+    }
+
+    // output function
+    typename make_message_bags<output_ports>::type output() const 
+    {
+        typename make_message_bags<output_ports>::type bags;
+        
+        // + TODO: add checking for validity of the data
+        get_messages<typename imu_controller_ports::out_accel>(bags).push_back(state.accel_readings);
+        get_messages<typename imu_controller_ports::out_gyro>(bags).push_back(state.gyro_readings);
+
+        return bags;
+    }
+
+    // time_advance function
+    TIME time_advance() const 
+    {
+        return state.active ? TIME("00:00:00:100") : std::numeric_limits<TIME>::infinity();
+    }
+
+    friend ostringstream& operator<<(ostringstream& os, const typename imu_controller<TIME>::state_type& i) 
+    {
+        os << "accelerometer:" << " x: " << i.accel_readings[0] << " y: " << i.accel_readings[1] << " z: " << i.accel_readings[2] << "\n";
+        os << "gyroscope:" << " x: " << i.gyro_readings[0] << " y: " << i.gyro_readings[1] << " z: " << i.gyro_readings[2] << "\n";
+        
+        return os;
+    }
+};
 
 #endif
