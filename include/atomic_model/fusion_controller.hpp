@@ -26,7 +26,9 @@ template <typename TIME>
 class fusion_controller
 {
 public:
-    using input_ports = tuple<typename fusion_controller_ports::in_accel, typename fusion_controller_ports::in_gyro>;
+    using input_ports = tuple<typename fusion_controller_ports::in_accel, 
+                                typename fusion_controller_ports::in_gyro,
+                                  typename fusion_controller_ports::in_offset>;
     using output_ports = tuple<typename fusion_controller_ports::out_fused_angle>;
 
     fusion_controller() noexcept

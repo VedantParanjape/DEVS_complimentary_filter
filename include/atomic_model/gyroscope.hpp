@@ -60,11 +60,18 @@ public:
     {
         state.gyro = read_gyroscope();
     }
-
+    
+    // external transition function
+    void external_transition(TIME e, typename make_message_bags<input_ports>::type mbs)
+    {
+        // do nothing
+    }
+    
     // confluence transition function
     void confluence_transition(TIME e, typename make_message_bags<input_ports>::type mbs) 
     {
         internal_transition();
+        external_transition(TIME(), std::move(mbs));
     }
 
     // output function
@@ -83,6 +90,13 @@ public:
     TIME time_advance() const
     {
         return refresh_rate;
+    }
+
+    friend ostringstream& operator<<(ostringstream& os, const typename gyroscope<TIME>::state_type& i) 
+    {
+        os << "gyroscope raw readings:" << " x: " << i.gyro[0] << " y: " << i.gyro[1] << " z: " << i.gyro[2] << "\n";
+        
+        return os;
     }
 };
 
