@@ -30,12 +30,11 @@ endif()
 
 ######## SOURCES ########
 # Add source files and header files
-file(GLOB PROJECT_SOURCES src/*.cpp src/algorithm/*.cpp src/atomic_model/*.cpp)
-include_directories("include")
+file(GLOB PROJECT_SOURCES top_model/main.cpp)
+include_directories("atomics")
 include_directories("cadmium/include")
 include_directories("cadmium/DESTimes/include")
 set(PROJECT_FILES
-    ${PROJECT_HEADERS}
     ${PROJECT_SOURCES})
 
 ######## TARGETS ########

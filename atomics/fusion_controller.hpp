@@ -3,7 +3,7 @@
 
 #include <cadmium/modeling/ports.hpp>
 #include <cadmium/modeling/message_bag.hpp>
-#include <algorithm/complimentary_filter.hpp>
+#include "complimentary_filter.hpp"
 
 #include <assert.h>
 #include <string>
