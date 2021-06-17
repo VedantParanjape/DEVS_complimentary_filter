@@ -16,7 +16,7 @@ project(DEVS-complimentary-filter
         VERSION 1.0
         DESCRIPTION "DEVS Model for complimentary filter"
         HOMEPAGE_URL "https://github.com/VedantParanjape/DEVS_complimentary_filter")
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/bin")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/top_model")
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
