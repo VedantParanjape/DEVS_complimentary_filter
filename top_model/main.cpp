@@ -118,8 +118,7 @@ int main()
         eocs_TOP,
         ics_TOP);
 
-    std::cout << "here\n";
-    cadmium::dynamic::engine::runner<NDTime, log_all> run(TOP, {0});
+    cadmium::dynamic::engine::runner<NDTime, log_all> run(TOP, NDTime("00:00:00"));
     run.run_until(NDTime("00:10:00:000"));
 
     return 0;

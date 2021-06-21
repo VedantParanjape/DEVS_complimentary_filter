@@ -17,9 +17,9 @@ uint64_t micros()
 
 std::vector<float> complimentary_filter(std::vector<float> accel_raw, std::vector<float> gyro_raw, std::vector<float> imu_offset)
 {
-    std::vector<float> accel_angles;
-    std::vector<float> gyro_angles;
-    static std::vector<float> complimentary_angles;
+    std::vector<float> accel_angles (3);
+    std::vector<float> gyro_angles (3);
+    static std::vector<float> complimentary_angles (3);
     const float alpha = 0.8;
 
     accel_angles[0] = (atan2(accel_raw[0], sqrt(pow(accel_raw[1], 2) + pow(accel_raw[2], 2))) * rad_to_degree_coeff) - imu_offset[0];

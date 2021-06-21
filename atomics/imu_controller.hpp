@@ -38,6 +38,10 @@ public:
 
     imu_controller() noexcept
     {
+        state.accel_readings = std::vector<float> (3);
+        state.gyro_readings = std::vector<float> (3);
+        state.imu_offsets = std::vector<float> (3);
+
         state.active = false;
     }
 
@@ -53,23 +57,19 @@ public:
     // internal transition function
     void internal_transition()
     {
-        state.imu_offsets.push_back(0);
-        state.imu_offsets.push_back(0);
-        state.imu_offsets.push_back(0);
-
         state.active = false;
     }
 
     // external transition function
     void external_transition(TIME e, typename make_message_bags<input_ports>::type mbs)
     {
-        state.accel_readings.push_back(get_messages<typename imu_controller_ports::in_acc_x>(mbs)[0]);
-        state.accel_readings.push_back(get_messages<typename imu_controller_ports::in_acc_y>(mbs)[0]);
-        state.accel_readings.push_back(get_messages<typename imu_controller_ports::in_acc_z>(mbs)[0]);
+        state.accel_readings[0] = get_messages<typename imu_controller_ports::in_acc_x>(mbs)[0];
+        state.accel_readings[1] = get_messages<typename imu_controller_ports::in_acc_y>(mbs)[0];
+        state.accel_readings[2] = get_messages<typename imu_controller_ports::in_acc_z>(mbs)[0];
 
-        state.gyro_readings.push_back(get_messages<typename imu_controller_ports::in_gyro_x>(mbs)[0]);
-        state.gyro_readings.push_back(get_messages<typename imu_controller_ports::in_gyro_y>(mbs)[0]);
-        state.gyro_readings.push_back(get_messages<typename imu_controller_ports::in_gyro_z>(mbs)[0]);
+        state.gyro_readings[0] = get_messages<typename imu_controller_ports::in_gyro_x>(mbs)[0];
+        state.gyro_readings[1] = get_messages<typename imu_controller_ports::in_gyro_y>(mbs)[0];
+        state.gyro_readings[2] = get_messages<typename imu_controller_ports::in_gyro_z>(mbs)[0];
 
         state.active = true;
     }
@@ -105,7 +105,6 @@ public:
         os << "accelerometer:" << " x: " << i.accel_readings[0] << " y: " << i.accel_readings[1] << " z: " << i.accel_readings[2] << "\n";
         os << "gyroscope:" << " x: " << i.gyro_readings[0] << " y: " << i.gyro_readings[1] << " z: " << i.gyro_readings[2] << "\n";
         os << "IMU offset:" << " x: " << i.imu_offsets[0] << " y: " << i.imu_offsets[1] << " z: " << i.imu_offsets[2] << "\n";
-        
         return os;
     }
 };

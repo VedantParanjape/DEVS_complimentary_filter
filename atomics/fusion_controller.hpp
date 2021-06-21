@@ -33,6 +33,7 @@ public:
 
     fusion_controller() noexcept
     {
+        state.fused_angle = std::vector<float> (3);
         state.active = false;
     }
 
@@ -52,10 +53,22 @@ public:
     // external transition function
     void external_transition(TIME e, typename make_message_bags<input_ports>::type mbs)
     {
-        state.fused_angle = complimentary_filter(get_messages<typename fusion_controller_ports::in_accel>(mbs)[0],
-                                                    get_messages<typename fusion_controller_ports::in_gyro>(mbs)[0],
-                                                       get_messages<typename fusion_controller_ports::in_offset>(mbs)[0]);
+        std::vector<float> in_accel, in_gyro, in_offset;
 
+        for (const auto &x : get_messages<typename fusion_controller_ports::in_accel>(mbs))
+        {
+            in_accel = x;
+        }
+        for (const auto &x : get_messages<typename fusion_controller_ports::in_gyro>(mbs))
+        {
+            in_gyro = x;
+        }
+        for (const auto &x : get_messages<typename fusion_controller_ports::in_offset>(mbs))
+        {
+            in_offset = x;
+        }
+        state.fused_angle = complimentary_filter(in_accel, in_gyro, in_offset);
+        
         state.active = true;
     }
 
@@ -79,13 +92,12 @@ public:
     TIME time_advance() const 
     {
         // + TODO: what should be time here ?
-        return state.active ? TIME("00:00:00") : std::numeric_limits<TIME>::infinity();
+        return state.active ? TIME("00:00:00:100") : std::numeric_limits<TIME>::infinity();
     }
 
     friend ostringstream& operator<<(ostringstream& os, const typename fusion_controller<TIME>::state_type& i) 
     {
-        // os << "fused angle:" << " x: " << i.fused_angle[0] << " y: " << i.fused_angle[1] << " z: " << i.fused_angle[2] << "\n";
-        os << "fused angle: \n";
+        os << "fused angle:" << " x: " << i.fused_angle[0] << " y: " << i.fused_angle[1] << " z: " << i.fused_angle[2] << "\n";
         return os;
     }
 };
