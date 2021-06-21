@@ -1,1 +1,16 @@
 00:00:00:000
+Preparing model
+Coordinator for model TOP initialized to time 00:00:00:000
+Simulator for model accel_x initialized to time 00:00:00:000
+State for model accel_x is next time: 00:00:00:000
+Simulator for model accel_y initialized to time 00:00:00:000
+State for model accel_y is next time: 00:00:00:000
+Simulator for model accel_z initialized to time 00:00:00:000
+State for model accel_z is next time: 00:00:00:000
+Simulator for model gyro_x initialized to time 00:00:00:000
+State for model gyro_x is next time: 00:00:00:000
+Simulator for model gyro_y initialized to time 00:00:00:000
+State for model gyro_y is next time: 00:00:00:000
+Simulator for model gyro_z initialized to time 00:00:00:000
+State for model gyro_z is next time: 00:00:00:000
+Simulator for model imu_controller_0 initialized to time 00:00:00:000

@@ -32,18 +32,13 @@ const char *input_gyro_x = "./inputs/gyroscope_x.txt";
 const char *input_gyro_y = "./inputs/gyroscope_y.txt";
 const char *input_gyro_z = "./inputs/gyroscope_z.txt";
 
-struct sensor_iestream_port
-{
-    struct out : public out_port<double> {};
-};
-
 template<typename T>
-class InputReader : public iestream_input<float, T, sensor_iestream_port> 
+class InputReader : public iestream_input<float, T, iestream_input_defs<float>> 
 {
     public:
         InputReader () = default;
         InputReader (const char* file_path) :
-        iestream_input<float, T, sensor_iestream_port> (file_path) {}
+        iestream_input<float, T, iestream_input_defs<float>> (file_path) {}
 };
 
 int main()
@@ -124,7 +119,7 @@ int main()
         ics_TOP);
 
     std::cout << "here\n";
-    cadmium::dynamic::engine::runner<NDTime, logger_top> run(TOP, {0});
+    cadmium::dynamic::engine::runner<NDTime, log_all> run(TOP, {0});
     run.run_until(NDTime("00:10:00:000"));
 
     return 0;
