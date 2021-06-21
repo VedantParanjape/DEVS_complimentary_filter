@@ -84,8 +84,8 @@ public:
 
     friend ostringstream& operator<<(ostringstream& os, const typename fusion_controller<TIME>::state_type& i) 
     {
-        os << "fused angle:" << " x: " << i.fused_angle[0] << " y: " << i.fused_angle[1] << " z: " << i.fused_angle[2] << "\n";
-        
+        // os << "fused angle:" << " x: " << i.fused_angle[0] << " y: " << i.fused_angle[1] << " z: " << i.fused_angle[2] << "\n";
+        os << "fused angle: \n";
         return os;
     }
 };
