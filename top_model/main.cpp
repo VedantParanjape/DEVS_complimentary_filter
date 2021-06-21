@@ -64,7 +64,7 @@ int main()
     using global_time = cadmium::logger::logger<cadmium::logger::logger_global_time, cadmium::dynamic::logger::formatter<TIME>, oss_sink_provider>;
     using local_time = cadmium::logger::logger<cadmium::logger::logger_local_time, cadmium::dynamic::logger::formatter<TIME>, oss_sink_provider>;
     using log_all = cadmium::logger::multilogger<info, debug, state, log_messages, routing, global_time, local_time>;
-    using logger_top = cadmium::logger::multilogger<log_messages, global_time>;
+    using logger_top = cadmium::logger::multilogger<log_messages, state, global_time>;
 
     using AtomicModelPtr = std::shared_ptr<cadmium::dynamic::modeling::model>;
     using CoupledModelPtr = std::shared_ptr<cadmium::dynamic::modeling::coupled<TIME>>;
@@ -118,7 +118,7 @@ int main()
         eocs_TOP,
         ics_TOP);
 
-    cadmium::dynamic::engine::runner<NDTime, log_all> run(TOP, NDTime("00:00:00"));
+    cadmium::dynamic::engine::runner<NDTime, logger_top> run(TOP, NDTime("00:00:00"));
     run.run_until(NDTime("00:10:00:000"));
 
     return 0;
