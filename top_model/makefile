@@ -6,7 +6,7 @@ EXECUTABLE_NAME=DEVS_complimentary_filter
 
 INCLUDRT_ARM_MBED=-I ../cadmium/include
 INCLUDEDESTIMES=-I ../cadmium/DESTimes/include
-INCLUDEBOOST=-I ../../boost_1_70_0
+INCLUDEBOOST=-I /usr/include/
 INCLUDEALGORITHMS=-I ../algorithms
 INCLUDEATOMICS=-I ../atomics
 INCLUDEDATA=-I ../data_structures
