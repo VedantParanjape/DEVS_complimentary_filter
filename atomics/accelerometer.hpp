@@ -25,7 +25,6 @@ struct accelerometer_ports
     struct out_x : public out_port<float> {};
     struct out_y : public out_port<float> {};
     struct out_z : public out_port<float> {};
-    struct in: public in_port<> {};
 };
 
 template <typename TIME>

@@ -1,5 +1,3 @@
-#define USE_MBED_OS 1
-
 #include <iostream>
 #include <chrono>
 #include <algorithm>
@@ -16,15 +14,15 @@
 #include <cadmium/logger/common_loggers.hpp>
 #include <cadmium/io/iestream.hpp>
 
-#if defined(USE_MBED_OS)
+#if defined(RT_ARM_MBED)
 #include <cadmium/real_time/arm_mbed/rt_clock.hpp>
 #endif
 
-#if defined(USE_MBED_OS)
+#if defined(RT_ARM_MBED)
 #include "../mbed.h"
-#else
+#endif
 
-#if !defined(USE_MBED_OS)
+#if !defined(RT_ARM_MBED)
 #include <cadmium/io/iestream.hpp>
 #endif
 
@@ -34,12 +32,12 @@
 #include "fusion_controller.hpp"
 #include "gyroscope.hpp"
 #include "imu_controller.hpp"
-#include "message.hpp"
+// #include "message.hpp"
 
 using namespace std;
 using TIME = NDTime;
 
-#if !defined(USE_MBED_OS)
+#if !defined(RT_ARM_MBED)
 const char *input_acc_x = "./inputs/accelerometer_x.txt";
 const char *input_acc_y = "./inputs/accelerometer_y.txt";
 const char *input_acc_z = "./inputs/accelerometer_z.txt";
@@ -65,7 +63,7 @@ int main()
     using AtomicModelPtr = std::shared_ptr<cadmium::dynamic::modeling::model>;
     using CoupledModelPtr = std::shared_ptr<cadmium::dynamic::modeling::coupled<TIME>>;
 
-#if !defined(USE_MBED_OS)
+#if !defined(RT_ARM_MBED)
     AtomicModelPtr accelerometer_model_x = cadmium::dynamic::translate::make_dynamic_atomic_model<InputReader, TIME>("accel_x", input_acc_x);
     AtomicModelPtr accelerometer_model_y = cadmium::dynamic::translate::make_dynamic_atomic_model<InputReader, TIME>("accel_y", input_acc_y);
     AtomicModelPtr accelerometer_model_z = cadmium::dynamic::translate::make_dynamic_atomic_model<InputReader, TIME>("accel_z", input_acc_z);
@@ -83,7 +81,7 @@ int main()
     cadmium::dynamic::modeling::Ports iports_TOP = {};
     cadmium::dynamic::modeling::Ports oports_TOP = {};
 
-#if !defined(USE_MBED_OS)
+#if !defined(RT_ARM_MBED)
     cadmium::dynamic::modeling::Models submodels_TOP = {accelerometer_model_x, accelerometer_model_y, accelerometer_model_z, gyroscope_model_x, gyroscope_model_y, gyroscope_model_z, imu_controller_model, fusion_controller_model};
 #else
     cadmium::dynamic::modeling::Models submodels_TOP = {accelerometer_model, gyroscope_model, imu_controller_model, fusion_controller_model};
@@ -93,7 +91,7 @@ int main()
     cadmium::dynamic::modeling::EOCs eocs_TOP = {};
 
     cadmium::dynamic::modeling::ICs ics_TOP = {
-#if !defined(USE_MBED_OS)
+#if !defined(RT_ARM_MBED)
         cadmium::dynamic::translate::make_IC<iestream_input_defs<float>::out, imu_controller_ports::in_acc_x>("accel_x", "imu_controller_0"),
         cadmium::dynamic::translate::make_IC<iestream_input_defs<float>::out, imu_controller_ports::in_acc_y>("accel_y", "imu_controller_0"),
         cadmium::dynamic::translate::make_IC<iestream_input_defs<float>::out, imu_controller_ports::in_acc_z>("accel_z", "imu_controller_0"),
