@@ -32,7 +32,7 @@
 #include "fusion_controller.hpp"
 #include "gyroscope.hpp"
 #include "imu_controller.hpp"
-// #include "message.hpp"
+#include "message.hpp"
 
 using namespace std;
 using TIME = NDTime;

@@ -4,9 +4,9 @@ COMPILE_TARGET=NUCLEO_H743ZI2
 FLASH_TARGET=NODE_F401RE1
 EXECUTABLE_NAME=DEVS_complimentary_filter
 
-INCLUDRT_ARM_MBED=-I ../cadmium/include
-INCLUDEDESTIMES=-I ../cadmium/DESTimes/include
-INCLUDEBOOST=-I /usr/include/
+INCLUDRT_ARM_MBED=-I ../../cadmium/include
+INCLUDEDESTIMES=-I ../../cadmium/DESTimes/include
+INCLUDEBOOST=-I ../../boost_1_76_0
 INCLUDEALGORITHMS=-I ../algorithms
 INCLUDEATOMICS=-I ../atomics
 INCLUDEDATA=-I ../data_structures

@@ -61,7 +61,7 @@ State for model imu_controller_0 is accelerometer: x: 0.75 y: 0.5 z: 0.5
 gyroscope: x: 0.5 y: 0.5 z: 0.5
 IMU offset: x: 0 y: 0 z: 0
 
-State for model fusion_controller_0 is fused angle: x: 35.2647 y: 35.2647 z: 35.2647
+State for model fusion_controller_0 is fused angle: x: 35.2645 y: 35.2645 z: 35.2645
 
 00:00:00:400
 State for model accel_x is next time: 00:00:00:100
@@ -74,7 +74,7 @@ State for model imu_controller_0 is accelerometer: x: 0.75 y: 0.5 z: 0.5
 gyroscope: x: 0.5 y: 0.5 z: 0.5
 IMU offset: x: 0 y: 0 z: 0
 
-State for model fusion_controller_0 is fused angle: x: 37.5493 y: 34.0155 z: 34.0155
+State for model fusion_controller_0 is fused angle: x: 37.549 y: 34.0152 z: 34.0152
 
 00:00:00:500
 State for model accel_x is next time: 00:00:00:100
@@ -87,7 +87,7 @@ State for model imu_controller_0 is accelerometer: x: 0.75 y: 0.5 z: 0.5
 gyroscope: x: 0.5 y: 0.5 z: 0.5
 IMU offset: x: 0 y: 0 z: 0
 
-State for model fusion_controller_0 is fused angle: x: 39.377 y: 33.0162 z: 33.0162
+State for model fusion_controller_0 is fused angle: x: 39.3766 y: 33.0157 z: 33.0157
 
 00:00:00:600
 State for model accel_x is next time: inf
@@ -100,7 +100,7 @@ State for model imu_controller_0 is accelerometer: x: 0.75 y: 0.5 z: 0.5
 gyroscope: x: 0.5 y: 0.5 z: 0.5
 IMU offset: x: 0 y: 0 z: 0
 
-State for model fusion_controller_0 is fused angle: x: 40.8391 y: 32.2166 z: 32.2166
+State for model fusion_controller_0 is fused angle: x: 40.8386 y: 32.2162 z: 32.2162
 
 00:00:00:700
 State for model accel_x is next time: inf
@@ -113,7 +113,7 @@ State for model imu_controller_0 is accelerometer: x: 0.75 y: 0.5 z: 0.5
 gyroscope: x: 0.5 y: 0.5 z: 0.5
 IMU offset: x: 0 y: 0 z: 0
 
-State for model fusion_controller_0 is fused angle: x: 42.0086 y: 31.5769 z: 31.5769
+State for model fusion_controller_0 is fused angle: x: 42.0082 y: 31.5764 z: 31.5764
 
 00:00:00:800
 State for model accel_x is next time: inf
@@ -126,5 +126,5 @@ State for model imu_controller_0 is accelerometer: x: 0.75 y: 0.5 z: 0.5
 gyroscope: x: 0.5 y: 0.5 z: 0.5
 IMU offset: x: 0 y: 0 z: 0
 
-State for model fusion_controller_0 is fused angle: x: 42.0086 y: 31.5769 z: 31.5769
+State for model fusion_controller_0 is fused angle: x: 42.0082 y: 31.5764 z: 31.5764
 

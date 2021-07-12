@@ -56,6 +56,10 @@ CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
 bin/
+BUILD/
+
+### Python ###
+__pycache__/
 
 #vscode
 .vscode/
