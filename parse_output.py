@@ -21,11 +21,12 @@ gyro_regex = regex.compile(r'gyroscope:\sx:\s([+-]?(?:[0-9]*[.])?[0-9]+)\sy:\s([
 fused_angle_regex = regex.compile(r'fused_angle:\sx:\s([+-]?(?:[0-9]*[.])?[0-9]+)\sy:\s([+-]?(?:[0-9]*[.])?[0-9]+)\sz:\s([+-]?(?:[0-9]*[.])?[0-9]+)')
 
 time = ""
-row = 0
+row = 1
 for i in infile.readlines():
     if time_regex.match(i) and len(i) == 13:
-        row = row + 1
         time = i.rstrip('\n')
+        if time != "00:00:00:000":
+            row = row + 1
         worksheet.write(row, 0, time)
     elif accel_regex.match(i):
         worksheet.write(row, 1, accel_regex.search(i).group(1))
