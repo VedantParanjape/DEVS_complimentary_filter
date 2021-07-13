@@ -20,6 +20,8 @@
 
 #if defined(RT_ARM_MBED)
 #include "../mbed.h"
+#include "gyroscope.hpp"
+#include "accelerometer.hpp"
 #endif
 
 #if !defined(RT_ARM_MBED)
@@ -28,9 +30,7 @@
 
 #include <NDTime.hpp>
 #include "complimentary_filter.hpp"
-#include "accelerometer.hpp"
 #include "fusion_controller.hpp"
-#include "gyroscope.hpp"
 #include "imu_controller.hpp"
 #include "message.hpp"
 
@@ -71,8 +71,8 @@ int main()
     AtomicModelPtr gyroscope_model_y = cadmium::dynamic::translate::make_dynamic_atomic_model<InputReader, TIME>("gyro_y", input_gyro_y);
     AtomicModelPtr gyroscope_model_z = cadmium::dynamic::translate::make_dynamic_atomic_model<InputReader, TIME>("gyro_z", input_gyro_z);
 #else    
-    AtomicModelPtr accelerometer_model = cadmium::dynamic::translate::make_dynamic_atomic_model<accelerometer, TIME>("accelerometer_0");
-    AtomicModelPtr gyroscope_model = cadmium::dynamic::translate::make_dynamic_atomic_model<gyroscope, TIME>("gyroscope_0");
+    AtomicModelPtr accelerometer_model = cadmium::dynamic::translate::make_dynamic_atomic_model<accelerometer, TIME>("accelerometer_0", p9, p10);
+    AtomicModelPtr gyroscope_model = cadmium::dynamic::translate::make_dynamic_atomic_model<gyroscope, TIME>("gyroscope_0", p9, p10);
 #endif
 
     AtomicModelPtr imu_controller_model = cadmium::dynamic::translate::make_dynamic_atomic_model<imu_controller, TIME>("imu_controller_0");
