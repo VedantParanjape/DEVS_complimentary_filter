@@ -13,6 +13,7 @@
 #include <cadmium/logger/tuple_to_ostream.hpp>
 #include <cadmium/logger/common_loggers.hpp>
 #include <cadmium/io/iestream.hpp>
+#include <NDTime.hpp>
 
 #if defined(RT_ARM_MBED)
 #include <cadmium/real_time/arm_mbed/rt_clock.hpp>
@@ -28,7 +29,6 @@
 #include <cadmium/io/iestream.hpp>
 #endif
 
-#include <NDTime.hpp>
 #include "complimentary_filter.hpp"
 #include "fusion_controller.hpp"
 #include "imu_controller.hpp"
@@ -71,8 +71,8 @@ int main()
     AtomicModelPtr gyroscope_model_y = cadmium::dynamic::translate::make_dynamic_atomic_model<InputReader, TIME>("gyro_y", input_gyro_y);
     AtomicModelPtr gyroscope_model_z = cadmium::dynamic::translate::make_dynamic_atomic_model<InputReader, TIME>("gyro_z", input_gyro_z);
 #else    
-    AtomicModelPtr accelerometer_model = cadmium::dynamic::translate::make_dynamic_atomic_model<accelerometer, TIME>("accelerometer_0", p9, p10);
-    AtomicModelPtr gyroscope_model = cadmium::dynamic::translate::make_dynamic_atomic_model<gyroscope, TIME>("gyroscope_0", p9, p10);
+    AtomicModelPtr accelerometer_model = cadmium::dynamic::translate::make_dynamic_atomic_model<accelerometer, TIME>("accelerometer_0", D14, D15);
+    AtomicModelPtr gyroscope_model = cadmium::dynamic::translate::make_dynamic_atomic_model<gyroscope, TIME>("gyroscope_0", D14, D15);
 #endif
 
     AtomicModelPtr imu_controller_model = cadmium::dynamic::translate::make_dynamic_atomic_model<imu_controller, TIME>("imu_controller_0");

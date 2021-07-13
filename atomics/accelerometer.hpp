@@ -9,15 +9,10 @@
 #include <random>
 #include <limits>
 
+#include "driver.hpp"
+
 using namespace cadmium;
 using namespace std;
-
-// dummy accelerometer read function
-std::vector<float> read_accelerometer()
-{
-    std::vector<float> ret_val = {1.0, 2.0, 3.0};
-    return ret_val;
-}
 
 //Port definition
 struct accelerometer_ports
@@ -32,21 +27,25 @@ class accelerometer
 {
 private:
     TIME refresh_rate;
+    IMU imu_driver;
+    MPU6050 *accel;
 
 public:
     using input_ports = tuple<>;
     using output_ports = tuple<typename accelerometer_ports::out_x, typename accelerometer_ports::out_y, typename accelerometer_ports::out_z>;
     
     // default constructor
-    accelerometer() noexcept
+    accelerometer(PinName sda, PinName scl) noexcept
     {
         refresh_rate = TIME("00:00:00:100");
+        accel = &imu_driver.init(sda, scl);
     }
 
     // parameterized constructor
-    accelerometer(TIME refresh_rate_sensor)
+    accelerometer(TIME refresh_rate_sensor, PinName sda, PinName scl)
     {
         refresh_rate = refresh_rate_sensor;
+        accel = &imu_driver.init(sda, scl);
     }
 
     struct state_type
@@ -58,7 +57,9 @@ public:
     // internal transition function
     void internal_transition()
     {
-        state.accel = read_accelerometer();
+        float readings[3];
+        accel->getAccelero(readings);
+        state.accel = {readings[0], readings[1], readings[2]};
     }
     
     // external transition function

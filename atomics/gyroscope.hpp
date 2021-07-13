@@ -9,15 +9,10 @@
 #include <random>
 #include <limits>
 
+#include "driver.hpp"
+
 using namespace cadmium;
 using namespace std;
-
-// dummy gyroscope read function
-std::vector<float> read_gyroscope()
-{
-    std::vector<float> ret_val = {1.0, 2.0, 3.0};
-    return ret_val;
-}
 
 //Port definition
 struct gyroscope_ports
@@ -32,21 +27,25 @@ class gyroscope
 {
 private:
     TIME refresh_rate;
+    IMU imu_driver;
+    MPU6050 *gyro;
 
 public:
     using input_ports = tuple<>;
     using output_ports = tuple<typename gyroscope_ports::out_x, typename gyroscope_ports::out_y, typename gyroscope_ports::out_z>;
     
     // default constructor
-    gyroscope() noexcept
+    gyroscope(PinName sda, PinName scl) noexcept
     {
         refresh_rate = TIME("00:00:00:100");
+        gyro = &imu_driver.init(sda, scl);
     }
 
     // parameterized constructor
-    gyroscope(TIME refresh_rate_sensor)
+    gyroscope(TIME refresh_rate_sensor, PinName sda, PinName scl)
     {
         refresh_rate = refresh_rate_sensor;
+        gyro = &imu_driver.init(sda, scl);
     }
 
     struct state_type
@@ -58,7 +57,9 @@ public:
     // internal transition function
     void internal_transition()
     {
-        state.gyro = read_gyroscope();
+        float readings[3];
+        gyro->getGyro(readings);
+        state.gyro = {readings[0], readings[1], readings[2]};
     }
     
     // external transition function
