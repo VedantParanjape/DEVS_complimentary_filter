@@ -102,6 +102,7 @@ public:
 
     friend ostringstream& operator<<(ostringstream& os, const typename imu_controller<TIME>::state_type& i) 
     {
+        os << "\n";
         os << "accelerometer:" << " x: " << i.accel_readings[0] << " y: " << i.accel_readings[1] << " z: " << i.accel_readings[2] << "\n";
         os << "gyroscope:" << " x: " << i.gyro_readings[0] << " y: " << i.gyro_readings[1] << " z: " << i.gyro_readings[2] << "\n";
         os << "IMU offset:" << " x: " << i.imu_offsets[0] << " y: " << i.imu_offsets[1] << " z: " << i.imu_offsets[2] << "\n";

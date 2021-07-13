@@ -141,7 +141,7 @@ int main()
     using logger_top=logger::multilogger<state, log_messages, global_time_mes, global_time_sta>;
 
     cadmium::dynamic::engine::runner<NDTime, logger_top> run(TOP, NDTime("00:00:00"));
-    run.run_until(NDTime("00:10:00:000"));
+    run.run_until(NDTime("00:00:31:300"));
 
     return 0;
 }   
