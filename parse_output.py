@@ -13,7 +13,7 @@ worksheet.write('F1', 'GYROSCOPE Y (degree/s)')
 worksheet.write('G1', 'GYROSCOPE Z (degree/s)')
 worksheet.write('H1', 'FUSED ANGLE X (degree)')
 worksheet.write('I1', 'FUSED ANGLE Y (degree)')
-worksheet.write('I1', 'FUSED ANGLE Z (degree)')
+worksheet.write('J1', 'FUSED ANGLE Z (degree)')
 
 time_regex = regex.compile(r'\d\d:\d\d:\d\d:\d\d\d')
 accel_regex = regex.compile(r'accelerometer:\sx:\s([+-]?(?:[0-9]*[.])?[0-9]+)\sy:\s([+-]?(?:[0-9]*[.])?[0-9]+)\sz:\s([+-]?(?:[0-9]*[.])?[0-9]+)')
