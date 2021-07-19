@@ -32,6 +32,7 @@
 #include "complimentary_filter.hpp"
 #include "fusion_controller.hpp"
 #include "imu_controller.hpp"
+#include "majority_vote_controller.hpp"
 #include "message.hpp"
 
 using namespace std;
