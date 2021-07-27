@@ -380,7 +380,7 @@ gyroscope: x: 9.21 y: 5.32 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -5.67181 y: 5.24058 z: 82.2577
+fused_angle: x: -5.65055 y: 5.25255 z: 82.2577
 
 00:00:00:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -444,7 +444,7 @@ gyroscope: x: 9.34 y: 5.54 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -5.97443 y: 5.35869 z: 81.9427
+fused_angle: x: -5.94969 y: 5.37274 z: 81.9427
 
 00:00:00:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -508,7 +508,7 @@ gyroscope: x: 9.47 y: 5.72 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -6.32521 y: 5.48822 z: 81.5828
+fused_angle: x: -6.30273 y: 5.50106 z: 81.5828
 
 00:00:00:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -572,7 +572,7 @@ gyroscope: x: 9.53 y: 5.9 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -6.31109 y: 5.1541 z: 81.7873
+fused_angle: x: -6.29502 y: 5.16321 z: 81.7873
 
 00:00:00:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -636,7 +636,7 @@ gyroscope: x: 9.59 y: 6.11 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -6.31368 y: 5.52892 z: 81.5298
+fused_angle: x: -6.30383 y: 5.53435 z: 81.5298
 
 00:00:00:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -700,7 +700,7 @@ gyroscope: x: 9.69 y: 6.35 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -5.90343 y: 5.62602 z: 81.7462
+fused_angle: x: -5.89997 y: 5.62755 z: 81.7462
 
 00:00:00:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -764,7 +764,7 @@ gyroscope: x: 9.83 y: 6.52 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -5.89917 y: 5.84986 z: 81.5996
+fused_angle: x: -5.90177 y: 5.84757 z: 81.5996
 
 00:00:01:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -828,7 +828,7 @@ gyroscope: x: 9.87 y: 6.7 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -6.15017 y: 5.64007 z: 81.5434
+fused_angle: x: -6.15998 y: 5.6331 z: 81.5434
 
 00:00:01:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -892,7 +892,7 @@ gyroscope: x: 9.84 y: 6.88 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -5.976 y: 6.23459 z: 81.2111
+fused_angle: x: -5.9919 y: 6.22355 z: 81.2111
 
 00:00:01:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -956,7 +956,7 @@ gyroscope: x: 9.82 y: 7.07 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -5.65463 y: 6.24648 z: 81.4343
+fused_angle: x: -5.67581 y: 6.23174 z: 81.4343
 
 00:00:01:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -1020,7 +1020,7 @@ gyroscope: x: 9.82 y: 7.28 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -5.57066 y: 6.32744 z: 81.4502
+fused_angle: x: -5.59748 y: 6.30853 z: 81.4502
 
 00:00:01:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -1084,7 +1084,7 @@ gyroscope: x: 9.86 y: 7.5 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -5.58005 y: 6.54698 z: 81.2936
+fused_angle: x: -5.61193 y: 6.52412 z: 81.2936
 
 00:00:01:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -1148,7 +1148,7 @@ gyroscope: x: 9.89 y: 7.71 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -5.56754 y: 6.58561 z: 81.2883
+fused_angle: x: -5.60276 y: 6.55994 z: 81.2883
 
 00:00:01:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -1212,7 +1212,7 @@ gyroscope: x: 9.89 y: 7.92 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -5.58203 y: 6.74271 z: 81.1705
+fused_angle: x: -5.62191 y: 6.71305 z: 81.1705
 
 00:00:01:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -1276,7 +1276,7 @@ gyroscope: x: 9.87 y: 8.12 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -5.30981 y: 6.77329 z: 81.3207
+fused_angle: x: -5.35424 y: 6.73953 z: 81.3207
 
 00:00:01:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -1340,7 +1340,7 @@ gyroscope: x: 9.84 y: 8.26 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -5.29448 y: 6.79745 z: 81.3232
+fused_angle: x: -5.34171 y: 6.76083 z: 81.3232
 
 00:00:01:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -1404,7 +1404,7 @@ gyroscope: x: 9.82 y: 8.38 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -5.77974 y: 6.77082 z: 81.0086
+fused_angle: x: -5.82932 y: 6.73162 z: 81.0086
 
 00:00:02:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -1468,7 +1468,7 @@ gyroscope: x: 9.8 y: 8.5 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -6.0487 y: 6.67327 z: 80.8983
+fused_angle: x: -6.10031 y: 6.63171 z: 80.8983
 
 00:00:02:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -1532,7 +1532,7 @@ gyroscope: x: 9.76 y: 8.61 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -6.28903 y: 6.6234 z: 80.7726
+fused_angle: x: -6.34084 y: 6.58103 z: 80.7726
 
 00:00:02:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -1596,7 +1596,7 @@ gyroscope: x: 9.69 y: 8.72 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -6.51932 y: 6.56226 z: 80.6568
+fused_angle: x: -6.56915 y: 6.52097 z: 80.6568
 
 00:00:02:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -1660,7 +1660,7 @@ gyroscope: x: 9.59 y: 8.82 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -6.5889 y: 6.52881 z: 80.6417
+fused_angle: x: -6.63449 y: 6.49063 z: 80.6417
 
 00:00:02:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -1724,7 +1724,7 @@ gyroscope: x: 9.45 y: 8.9 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -6.67743 y: 6.34083 z: 80.7083
+fused_angle: x: -6.72219 y: 6.30267 z: 80.7083
 
 00:00:02:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -1788,7 +1788,7 @@ gyroscope: x: 9.29 y: 8.95 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -6.73966 y: 6.25047 z: 80.7314
+fused_angle: x: -6.78124 y: 6.2145 z: 80.7314
 
 00:00:02:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -1852,7 +1852,7 @@ gyroscope: x: 9.12 y: 9.01 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -6.71648 y: 6.16406 z: 80.8158
+fused_angle: x: -6.76039 y: 6.12503 z: 80.8158
 
 00:00:02:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -1916,7 +1916,7 @@ gyroscope: x: 8.92 y: 9.08 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -6.53803 y: 6.09644 z: 81.0018
+fused_angle: x: -6.58431 y: 6.0542 z: 81.0018
 
 00:00:02:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -1980,7 +1980,7 @@ gyroscope: x: 8.7 y: 9.18 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -6.21341 y: 6.02266 z: 81.292
+fused_angle: x: -6.26143 y: 5.97767 z: 81.292
 
 00:00:02:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -2044,7 +2044,7 @@ gyroscope: x: 8.51 y: 9.29 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -5.90745 y: 5.74647 z: 81.7136
+fused_angle: x: -5.9568 y: 5.69895 z: 81.7136
 
 00:00:03:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -2108,7 +2108,7 @@ gyroscope: x: 8.36 y: 9.42 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -5.92188 y: 5.29976 z: 81.9764
+fused_angle: x: -5.97173 y: 5.25042 z: 81.9764
 
 00:00:03:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -2172,7 +2172,7 @@ gyroscope: x: 8.27 y: 9.5 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -6.34431 y: 4.95025 z: 81.8135
+fused_angle: x: -6.39472 y: 4.8989 z: 81.8135
 
 00:00:03:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -2236,7 +2236,7 @@ gyroscope: x: 8.27 y: 9.55 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -7.05282 y: 4.49726 z: 81.3879
+fused_angle: x: -7.10333 y: 4.44449 z: 81.3879
 
 00:00:03:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -2300,7 +2300,7 @@ gyroscope: x: 8.38 y: 9.51 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -7.58769 y: 4.08517 z: 81.0907
+fused_angle: x: -7.63686 y: 4.03284 z: 81.0907
 
 00:00:03:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -2364,7 +2364,7 @@ gyroscope: x: 8.58 y: 9.38 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -7.97696 y: 3.73404 z: 80.895
+fused_angle: x: -8.02439 y: 3.68298 z: 80.895
 
 00:00:03:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -2428,7 +2428,7 @@ gyroscope: x: 8.8 y: 9.19 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -8.24881 y: 3.59175 z: 80.7395
+fused_angle: x: -8.29624 y: 3.54054 z: 80.7395
 
 00:00:03:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -2492,7 +2492,7 @@ gyroscope: x: 9.12 y: 8.95 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -8.3144 y: 3.52381 z: 80.744
+fused_angle: x: -8.36253 y: 3.4722 z: 80.744
 
 00:00:03:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -2556,7 +2556,7 @@ gyroscope: x: 9.56 y: 8.65 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -8.23513 y: 3.30988 z: 80.9225
+fused_angle: x: -8.2842 y: 3.25823 z: 80.9225
 
 00:00:03:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -2620,7 +2620,7 @@ gyroscope: x: 10.04 y: 8.28 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -8.4488 y: 3.47735 z: 80.6858
+fused_angle: x: -8.49691 y: 3.42802 z: 80.6858
 
 00:00:03:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -2684,7 +2684,7 @@ gyroscope: x: 10.56 y: 7.84 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -8.8766 y: 3.80018 z: 80.1813
+fused_angle: x: -8.92661 y: 3.75121 z: 80.1813
 
 00:00:04:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -2748,7 +2748,7 @@ gyroscope: x: 11.07 y: 7.39 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -9.15114 y: 4.13289 z: 79.8037
+fused_angle: x: -9.20049 y: 4.08677 z: 79.8037
 
 00:00:04:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -2812,7 +2812,7 @@ gyroscope: x: 11.58 y: 6.95 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -9.24776 y: 4.63495 z: 79.4839
+fused_angle: x: -9.29944 y: 4.58992 z: 79.4839
 
 00:00:04:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -2876,7 +2876,7 @@ gyroscope: x: 12.07 y: 6.51 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -9.2083 y: 5.29455 z: 79.1615
+fused_angle: x: -9.26239 y: 5.25088 z: 79.1615
 
 00:00:04:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -2940,7 +2940,7 @@ gyroscope: x: 12.58 y: 6.03 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -9.21232 y: 6.0292 z: 78.7349
+fused_angle: x: -9.26846 y: 5.98732 z: 78.7349
 
 00:00:04:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -3004,7 +3004,7 @@ gyroscope: x: 13.11 y: 5.55 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -9.1707 y: 6.69317 z: 78.3701
+fused_angle: x: -9.23139 y: 6.6521 z: 78.3701
 
 00:00:04:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -3068,7 +3068,7 @@ gyroscope: x: 13.65 y: 5.07 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -8.86173 y: 7.39587 z: 78.1298
+fused_angle: x: -8.92659 y: 7.35611 z: 78.1298
 
 00:00:04:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -3132,7 +3132,7 @@ gyroscope: x: 14.22 y: 4.6 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -8.07075 y: 8.03177 z: 78.1643
+fused_angle: x: -8.13953 y: 7.9937 z: 78.1643
 
 00:00:04:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -3196,7 +3196,7 @@ gyroscope: x: 14.78 y: 4.16 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -7.3304 y: 8.68204 z: 78.1049
+fused_angle: x: -7.40348 y: 8.64574 z: 78.1049
 
 00:00:04:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -3260,7 +3260,7 @@ gyroscope: x: 15.35 y: 3.74 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -6.8149 y: 9.45092 z: 77.7952
+fused_angle: x: -6.89164 y: 9.41673 z: 77.7952
 
 00:00:04:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -3324,7 +3324,7 @@ gyroscope: x: 15.94 y: 3.35 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -6.60483 y: 10.125 z: 77.4094
+fused_angle: x: -6.68508 y: 10.093 z: 77.4094
 
 00:00:05:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -3388,7 +3388,7 @@ gyroscope: x: 16.54 y: 3 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -6.50805 y: 10.9364 z: 76.8199
+fused_angle: x: -6.59136 y: 10.9069 z: 76.8199
 
 00:00:05:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -3452,7 +3452,7 @@ gyroscope: x: 17.19 y: 2.66 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -6.37913 y: 11.6565 z: 76.3026
+fused_angle: x: -6.46508 y: 11.6294 z: 76.3026
 
 00:00:05:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -3516,7 +3516,7 @@ gyroscope: x: 17.86 y: 2.34 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -6.16835 y: 12.2817 z: 75.883
+fused_angle: x: -6.25845 y: 12.2567 z: 75.883
 
 00:00:05:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -3580,7 +3580,7 @@ gyroscope: x: 18.55 y: 2.03 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -5.8718 y: 13.0689 z: 75.3159
+fused_angle: x: -5.96673 y: 13.0458 z: 75.3159
 
 00:00:05:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -3644,7 +3644,7 @@ gyroscope: x: 19.21 y: 1.77 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -5.25442 y: 13.8616 z: 74.7953
+fused_angle: x: -5.35356 y: 13.8406 z: 74.7953
 
 00:00:05:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -3708,7 +3708,7 @@ gyroscope: x: 19.89 y: 1.58 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -4.14368 y: 14.6381 z: 74.2914
+fused_angle: x: -4.24715 y: 14.6191 z: 74.2914
 
 00:00:05:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -3772,7 +3772,7 @@ gyroscope: x: 20.63 y: 1.49 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.86375 y: 15.2272 z: 73.8952
+fused_angle: x: -2.97213 y: 15.21 z: 73.8952
 
 00:00:05:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -3836,7 +3836,7 @@ gyroscope: x: 21.39 y: 1.6 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.31814 y: 15.6744 z: 73.6261
+fused_angle: x: -2.43101 y: 15.6588 z: 73.6261
 
 00:00:05:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -3900,7 +3900,7 @@ gyroscope: x: 22.15 y: 1.83 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -3.27047 y: 16.0255 z: 73.1049
+fused_angle: x: -3.38699 y: 16.011 z: 73.1049
 
 00:00:05:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -3964,7 +3964,7 @@ gyroscope: x: 23.03 y: 2.11 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -4.73035 y: 15.7233 z: 72.8372
+fused_angle: x: -4.85157 y: 15.7093 z: 72.8372
 
 00:00:06:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -4028,7 +4028,7 @@ gyroscope: x: 24.03 y: 2.37 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -5.90568 y: 15.0797 z: 72.9355
+fused_angle: x: -6.03243 y: 15.0658 z: 72.9355
 
 00:00:06:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -4092,7 +4092,7 @@ gyroscope: x: 25.33 y: 2.41 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -6.23021 y: 14.6335 z: 73.3325
+fused_angle: x: -6.36205 y: 14.6194 z: 73.3325
 
 00:00:06:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -4156,7 +4156,7 @@ gyroscope: x: 27.06 y: 2.1 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -5.72791 y: 13.7816 z: 74.4433
+fused_angle: x: -5.86653 y: 13.7672 z: 74.4433
 
 00:00:06:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -4220,7 +4220,7 @@ gyroscope: x: 29.14 y: 1.43 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -4.98967 y: 13.1752 z: 75.3574
+fused_angle: x: -5.13552 y: 13.161 z: 75.3574
 
 00:00:06:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -4284,7 +4284,7 @@ gyroscope: x: 31.5 y: 0.55 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -4.09639 y: 13.1979 z: 75.6257
+fused_angle: x: -4.25223 y: 13.1846 z: 75.6257
 
 00:00:06:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -4348,7 +4348,7 @@ gyroscope: x: 33.93 y: -0.31 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -3.92986 y: 14.0095 z: 74.9707
+fused_angle: x: -4.0937 y: 13.9981 z: 74.9707
 
 00:00:06:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -4412,7 +4412,7 @@ gyroscope: x: 36.31 y: -1.08 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -5.28001 y: 16.4367 z: 72.2304
+fused_angle: x: -5.45335 y: 16.4281 z: 72.2304
 
 00:00:06:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -4476,7 +4476,7 @@ gyroscope: x: 38.57 y: -1.82 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -8.05233 y: 20.3411 z: 67.2766
+fused_angle: x: -8.23701 y: 20.3355 z: 67.2766
 
 00:00:06:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -4540,7 +4540,7 @@ gyroscope: x: 40.69 y: -2.51 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -11.007 y: 25.2537 z: 61.0194
+fused_angle: x: -11.2026 y: 25.2515 z: 61.0194
 
 00:00:06:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -4604,7 +4604,7 @@ gyroscope: x: 42.62 y: -3.28 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -12.304 y: 31.1457 z: 54.6567
+fused_angle: x: -12.5131 y: 31.1472 z: 54.6567
 
 00:00:07:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -4668,7 +4668,7 @@ gyroscope: x: 44.39 y: -4.14 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -11.9959 y: 37.3875 z: 48.6967
+fused_angle: x: -12.2165 y: 37.3928 z: 48.6967
 
 00:00:07:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -4732,7 +4732,7 @@ gyroscope: x: 46.04 y: -5.11 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -10.5743 y: 42.8836 z: 43.8415
+fused_angle: x: -10.8058 y: 42.8929 z: 43.8415
 
 00:00:07:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -4796,7 +4796,7 @@ gyroscope: x: 47.54 y: -6.14 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -8.68414 y: 47.5612 z: 39.7942
+fused_angle: x: -8.92778 y: 47.5751 z: 39.7942
 
 00:00:07:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -4860,7 +4860,7 @@ gyroscope: x: 48.87 y: -7.26 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -6.79759 y: 51.2477 z: 36.6224
+fused_angle: x: -7.05182 y: 51.2666 z: 36.6224
 
 00:00:07:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -4924,7 +4924,7 @@ gyroscope: x: 50.12 y: -8.38 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -4.50153 y: 53.9053 z: 34.2972
+fused_angle: x: -4.76744 y: 53.9297 z: 34.2972
 
 00:00:07:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -4988,7 +4988,7 @@ gyroscope: x: 51.36 y: -9.58 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -1.55972 y: 55.2341 z: 32.9254
+fused_angle: x: -1.83656 y: 55.2643 z: 32.9254
 
 00:00:07:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -5052,7 +5052,7 @@ gyroscope: x: 52.67 y: -10.92 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 1.22925 y: 55.7934 z: 32.164
+fused_angle: x: 0.944459 y: 55.8293 z: 32.164
 
 00:00:07:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -5116,7 +5116,7 @@ gyroscope: x: 54.06 y: -12.33 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 3.88761 y: 55.9311 z: 31.6657
+fused_angle: x: 3.59312 y: 55.9737 z: 31.6657
 
 00:00:07:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -5180,7 +5180,7 @@ gyroscope: x: 55.43 y: -13.62 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 6.75231 y: 56.4603 z: 30.3288
+fused_angle: x: 6.44653 y: 56.5104 z: 30.3288
 
 00:00:07:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -5244,7 +5244,7 @@ gyroscope: x: 56.73 y: -14.77 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 9.65823 y: 57.5335 z: 27.8798
+fused_angle: x: 9.34337 y: 57.5908 z: 27.8798
 
 00:00:08:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -5308,7 +5308,7 @@ gyroscope: x: 57.89 y: -15.71 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 11.9492 y: 59.2745 z: 24.551
+fused_angle: x: 11.6258 y: 59.339 z: 24.551
 
 00:00:08:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -5372,7 +5372,7 @@ gyroscope: x: 58.86 y: -16.52 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 13.5812 y: 61.4332 z: 20.3088
+fused_angle: x: 13.2488 y: 61.5048 z: 20.3088
 
 00:00:08:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -5436,7 +5436,7 @@ gyroscope: x: 59.53 y: -17.08 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 14.5615 y: 63.471 z: 15.5425
+fused_angle: x: 14.2256 y: 63.5479 z: 15.5425
 
 00:00:08:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -5500,7 +5500,7 @@ gyroscope: x: 59.92 y: -17.39 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 15.1521 y: 65.1473 z: 11.2259
+fused_angle: x: 14.8103 y: 65.2298 z: 11.2259
 
 00:00:08:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -5564,7 +5564,7 @@ gyroscope: x: 60.11 y: -17.54 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 16.3594 y: 65.7977 z: 7.80808
+fused_angle: x: 16.0112 y: 65.8854 z: 7.80808
 
 00:00:08:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -5628,7 +5628,7 @@ gyroscope: x: 60.17 y: -17.63 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 18.1062 y: 65.6101 z: 5.27789
+fused_angle: x: 17.7516 y: 65.7024 z: 5.27789
 
 00:00:08:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -5692,7 +5692,7 @@ gyroscope: x: 60.1 y: -17.7 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 19.7394 y: 65.2772 z: 3.52133
+fused_angle: x: 19.3795 y: 65.3734 z: 3.52133
 
 00:00:08:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -5756,7 +5756,7 @@ gyroscope: x: 59.85 y: -17.81 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 21.018 y: 65.0337 z: 2.09232
+fused_angle: x: 20.6544 y: 65.133 z: 2.09232
 
 00:00:08:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -5820,7 +5820,7 @@ gyroscope: x: 59.37 y: -17.86 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 21.5847 y: 65.2671 z: 0.824094
+fused_angle: x: 21.2184 y: 65.369 z: 0.824094
 
 00:00:08:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -5884,7 +5884,7 @@ gyroscope: x: 58.69 y: -17.7 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 22.24 y: 65.2528 z: -0.197926
+fused_angle: x: 21.8736 y: 65.3563 z: -0.197926
 
 00:00:09:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -5948,7 +5948,7 @@ gyroscope: x: 57.9 y: -17.27 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 23.0261 y: 65.0434 z: -0.58571
+fused_angle: x: 22.6585 y: 65.1487 z: -0.58571
 
 00:00:09:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -6012,7 +6012,7 @@ gyroscope: x: 57.08 y: -16.63 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 23.8047 y: 64.6175 z: 0.620118
+fused_angle: x: 23.4357 y: 64.7241 z: 0.620118
 
 00:00:09:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -6076,7 +6076,7 @@ gyroscope: x: 56.29 y: -15.94 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 23.9251 y: 64.0067 z: 3.37302
+fused_angle: x: 23.5582 y: 64.1129 z: 3.37302
 
 00:00:09:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -6140,7 +6140,7 @@ gyroscope: x: 55.53 y: -15.32 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 23.3586 y: 63.0263 z: 7.07254
+fused_angle: x: 22.9954 y: 63.1309 z: 7.07254
 
 00:00:09:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -6204,7 +6204,7 @@ gyroscope: x: 54.73 y: -14.73 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 22.6808 y: 61.9394 z: 10.6029
+fused_angle: x: 22.3187 y: 62.0429 z: 10.6029
 
 00:00:09:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -6268,7 +6268,7 @@ gyroscope: x: 53.91 y: -14.13 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 22.1644 y: 61.0903 z: 13.3799
+fused_angle: x: 21.8067 y: 61.1914 z: 13.3799
 
 00:00:09:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -6332,7 +6332,7 @@ gyroscope: x: 53.07 y: -13.43 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 21.8705 y: 60.2671 z: 15.6742
+fused_angle: x: 21.5169 y: 60.3657 z: 15.6742
 
 00:00:09:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -6396,7 +6396,7 @@ gyroscope: x: 52.2 y: -12.64 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 21.2196 y: 59.7688 z: 17.6537
+fused_angle: x: 20.8714 y: 59.8642 z: 17.6537
 
 00:00:09:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -6460,7 +6460,7 @@ gyroscope: x: 51.28 y: -11.81 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 19.9435 y: 59.4958 z: 19.6023
+fused_angle: x: 19.5995 y: 59.5879 z: 19.6023
 
 00:00:09:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -6524,7 +6524,7 @@ gyroscope: x: 50.34 y: -11.02 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 18.1554 y: 59.4138 z: 21.4026
+fused_angle: x: 17.8143 y: 59.5027 z: 21.4026
 
 00:00:10:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -6588,7 +6588,7 @@ gyroscope: x: 49.36 y: -10.27 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 16.1477 y: 59.0791 z: 23.3277
+fused_angle: x: 15.8126 y: 59.1638 z: 23.3277
 
 00:00:10:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -6652,7 +6652,7 @@ gyroscope: x: 48.4 y: -9.57 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 14.2864 y: 58.6961 z: 25.0542
+fused_angle: x: 13.9589 y: 58.7763 z: 25.0542
 
 00:00:10:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -6716,7 +6716,7 @@ gyroscope: x: 47.42 y: -8.98 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 12.577 y: 58.1815 z: 26.6953
+fused_angle: x: 12.2543 y: 58.2576 z: 26.6953
 
 00:00:10:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -6780,7 +6780,7 @@ gyroscope: x: 46.38 y: -8.43 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 10.4397 y: 57.9385 z: 27.9352
+fused_angle: x: 10.1235 y: 58.0104 z: 27.9352
 
 00:00:10:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -6844,7 +6844,7 @@ gyroscope: x: 45.22 y: -7.88 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 8.8275 y: 57.5312 z: 29.1356
+fused_angle: x: 8.51798 y: 57.599 z: 29.1356
 
 00:00:10:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -6908,7 +6908,7 @@ gyroscope: x: 43.8 y: -7.14 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 7.83158 y: 57.0261 z: 30.2482
+fused_angle: x: 7.52771 y: 57.0901 z: 30.2482
 
 00:00:10:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -6972,7 +6972,7 @@ gyroscope: x: 42.24 y: -6.05 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 7.82567 y: 56.0206 z: 31.5909
+fused_angle: x: 7.52626 y: 56.081 z: 31.5909
 
 00:00:10:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -7036,7 +7036,7 @@ gyroscope: x: 40.73 y: -4.78 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 8.2133 y: 53.5684 z: 34.2086
+fused_angle: x: 7.9217 y: 53.6242 z: 34.2086
 
 00:00:10:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -7100,7 +7100,7 @@ gyroscope: x: 39.37 y: -3.56 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 7.14055 y: 50.2646 z: 37.9255
+fused_angle: x: 6.85374 y: 50.3155 z: 37.9255
 
 00:00:10:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -7164,7 +7164,7 @@ gyroscope: x: 38.22 y: -2.49 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 4.73952 y: 47.0142 z: 41.4244
+fused_angle: x: 4.46122 y: 47.0593 z: 41.4244
 
 00:00:11:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -7228,7 +7228,7 @@ gyroscope: x: 37.25 y: -1.5 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 2.66013 y: 44.2374 z: 44.3675
+fused_angle: x: 2.38924 y: 44.2766 z: 44.3675
 
 00:00:11:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -7292,7 +7292,7 @@ gyroscope: x: 36.33 y: -0.51 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 1.29644 y: 42.375 z: 46.4278
+fused_angle: x: 1.03306 y: 42.4083 z: 46.4278
 
 00:00:11:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -7356,7 +7356,7 @@ gyroscope: x: 35.32 y: 0.63 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 0.594486 y: 41.8588 z: 47.1577
+fused_angle: x: 0.337222 y: 41.8861 z: 47.1577
 
 00:00:11:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -7420,7 +7420,7 @@ gyroscope: x: 34.1 y: 1.89 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 0.29942 y: 42.2102 z: 46.9986
+fused_angle: x: 0.050038 y: 42.2313 z: 46.9986
 
 00:00:11:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -7484,7 +7484,7 @@ gyroscope: x: 32.66 y: 3.41 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -0.979119 y: 42.9126 z: 46.3126
+fused_angle: x: -1.222 y: 42.927 z: 46.3126
 
 00:00:11:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -7548,7 +7548,7 @@ gyroscope: x: 31.09 y: 5.13 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.09472 y: 42.705 z: 46.5151
+fused_angle: x: -2.3307 y: 42.7122 z: 46.5151
 
 00:00:11:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -7612,7 +7612,7 @@ gyroscope: x: 29.54 y: 6.89 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -4.34936 y: 41.3257 z: 47.3932
+fused_angle: x: -4.57831 y: 41.3248 z: 47.3932
 
 00:00:11:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -7676,7 +7676,7 @@ gyroscope: x: 28.05 y: 8.68 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -7.43857 y: 38.9043 z: 48.5922
+fused_angle: x: -7.66131 y: 38.8943 z: 48.5922
 
 00:00:11:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -7740,7 +7740,7 @@ gyroscope: x: 26.69 y: 10.44 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -9.61915 y: 36.4183 z: 50.2341
+fused_angle: x: -9.83408 y: 36.399 z: 50.2341
 
 00:00:11:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -7804,7 +7804,7 @@ gyroscope: x: 25.32 y: 12.24 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -11.5707 y: 34.0506 z: 51.7354
+fused_angle: x: -11.7764 y: 34.0219 z: 51.7354
 
 00:00:12:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -7868,7 +7868,7 @@ gyroscope: x: 23.88 y: 14.09 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -13.1564 y: 32.2617 z: 52.8364
+fused_angle: x: -13.3539 y: 32.2229 z: 52.8364
 
 00:00:12:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -7932,7 +7932,7 @@ gyroscope: x: 22.35 y: 16.02 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -14.0613 y: 30.6557 z: 54.1199
+fused_angle: x: -14.2491 y: 30.607 z: 54.1199
 
 00:00:12:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -7996,7 +7996,7 @@ gyroscope: x: 20.73 y: 17.94 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -16.1769 y: 29.0117 z: 54.3983
+fused_angle: x: -16.3555 y: 28.9525 z: 54.3983
 
 00:00:12:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -8060,7 +8060,7 @@ gyroscope: x: 19.12 y: 19.71 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -18.986 y: 27.0001 z: 54.1413
+fused_angle: x: -19.1551 y: 26.9301 z: 54.1413
 
 00:00:12:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -8124,7 +8124,7 @@ gyroscope: x: 17.6 y: 21.18 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -21.4647 y: 24.6319 z: 54.1677
+fused_angle: x: -21.6246 y: 24.5504 z: 54.1677
 
 00:00:12:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -8188,7 +8188,7 @@ gyroscope: x: 16.24 y: 22.36 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -23.7323 y: 22.3253 z: 54.1257
+fused_angle: x: -23.8819 y: 22.2339 z: 54.1257
 
 00:00:12:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -8252,7 +8252,7 @@ gyroscope: x: 15.06 y: 23.19 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -25.0217 y: 20.2785 z: 54.6883
+fused_angle: x: -25.1619 y: 20.1771 z: 54.6883
 
 00:00:12:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -8316,7 +8316,7 @@ gyroscope: x: 14.04 y: 23.65 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -25.8048 y: 18.7033 z: 55.3497
+fused_angle: x: -25.9368 y: 18.5918 z: 55.3497
 
 00:00:12:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -8380,7 +8380,7 @@ gyroscope: x: 13.07 y: 23.92 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -26.5398 y: 17.2335 z: 55.8703
+fused_angle: x: -26.6633 y: 17.1141 z: 55.8703
 
 00:00:12:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -8444,7 +8444,7 @@ gyroscope: x: 11.99 y: 24.09 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -27.091 y: 16.1831 z: 56.2704
+fused_angle: x: -27.2063 y: 16.0576 z: 56.2704
 
 00:00:13:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -8508,7 +8508,7 @@ gyroscope: x: 10.9 y: 24.24 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -27.5277 y: 15.0031 z: 56.7375
+fused_angle: x: -27.6353 y: 14.8715 z: 56.7375
 
 00:00:13:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -8572,7 +8572,7 @@ gyroscope: x: 9.94 y: 24.29 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -27.3679 y: 13.5835 z: 57.7725
+fused_angle: x: -27.4676 y: 13.4482 z: 57.7725
 
 00:00:13:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -8636,7 +8636,7 @@ gyroscope: x: 9.19 y: 24.17 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -27.4126 y: 12.2049 z: 58.5052
+fused_angle: x: -27.5046 y: 12.0666 z: 58.5052
 
 00:00:13:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -8700,7 +8700,7 @@ gyroscope: x: 8.65 y: 23.83 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -27.3316 y: 11.0388 z: 59.2237
+fused_angle: x: -27.4167 y: 10.898 z: 59.2237
 
 00:00:13:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -8764,7 +8764,7 @@ gyroscope: x: 8.32 y: 23.29 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -27.1145 y: 9.99728 z: 59.9759
+fused_angle: x: -27.1931 y: 9.85571 z: 59.9759
 
 00:00:13:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -8828,7 +8828,7 @@ gyroscope: x: 8.12 y: 22.57 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -26.6158 y: 9.27793 z: 60.8674
+fused_angle: x: -26.6889 y: 9.1362 z: 60.8674
 
 00:00:13:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -8892,7 +8892,7 @@ gyroscope: x: 7.86 y: 21.78 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -26.2601 y: 8.9303 z: 61.4711
+fused_angle: x: -26.3285 y: 8.7894 z: 61.4711
 
 00:00:13:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -8956,7 +8956,7 @@ gyroscope: x: 7.46 y: 21.01 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -26.1749 y: 8.93826 z: 61.6643
+fused_angle: x: -26.239 y: 8.79937 z: 61.6643
 
 00:00:13:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -9020,7 +9020,7 @@ gyroscope: x: 7.05 y: 20.39 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -25.7495 y: 8.76899 z: 62.2243
+fused_angle: x: -25.8098 y: 8.63251 z: 62.2243
 
 00:00:13:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -9084,7 +9084,7 @@ gyroscope: x: 6.7 y: 19.86 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -25.0194 y: 8.31681 z: 63.1509
+fused_angle: x: -25.0761 y: 8.18305 z: 63.1509
 
 00:00:14:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -9148,7 +9148,7 @@ gyroscope: x: 6.45 y: 19.36 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -24.3719 y: 8.18483 z: 63.8784
+fused_angle: x: -24.4256 y: 8.0532 z: 63.8784
 
 00:00:14:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -9212,7 +9212,7 @@ gyroscope: x: 6.26 y: 18.87 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -23.6992 y: 7.88208 z: 64.6751
+fused_angle: x: -23.7502 y: 7.75246 z: 64.6751
 
 00:00:14:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -9276,7 +9276,7 @@ gyroscope: x: 6.12 y: 18.4 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -22.6673 y: 7.70211 z: 65.7623
+fused_angle: x: -22.7155 y: 7.57603 z: 65.7623
 
 00:00:14:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -9340,7 +9340,7 @@ gyroscope: x: 6 y: 17.87 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -21.6888 y: 7.59355 z: 66.7626
+fused_angle: x: -21.735 y: 7.4698 z: 66.7626
 
 00:00:14:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -9404,7 +9404,7 @@ gyroscope: x: 5.83 y: 17.28 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -21.0456 y: 7.74687 z: 67.3347
+fused_angle: x: -21.0902 y: 7.62528 z: 67.3347
 
 00:00:14:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -9468,7 +9468,7 @@ gyroscope: x: 5.55 y: 16.63 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -20.4556 y: 8.00053 z: 67.8026
+fused_angle: x: -20.4987 y: 7.88115 z: 67.8026
 
 00:00:14:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -9532,7 +9532,7 @@ gyroscope: x: 5.18 y: 16.04 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -19.5678 y: 8.243 z: 68.53
+fused_angle: x: -19.609 y: 8.12729 z: 68.53
 
 00:00:14:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -9596,7 +9596,7 @@ gyroscope: x: 4.76 y: 15.58 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -18.0116 y: 8.07987 z: 70.0358
+fused_angle: x: -18.051 y: 7.96754 z: 70.0358
 
 00:00:14:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -9660,7 +9660,7 @@ gyroscope: x: 4.34 y: 15.25 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -16.0299 y: 7.82157 z: 71.9227
+fused_angle: x: -16.067 y: 7.71342 z: 71.9227
 
 00:00:14:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -9724,7 +9724,7 @@ gyroscope: x: 3.94 y: 14.99 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -14.5336 y: 7.47909 z: 73.4432
+fused_angle: x: -14.5683 y: 7.37485 z: 73.4432
 
 00:00:15:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -9788,7 +9788,7 @@ gyroscope: x: 3.57 y: 14.75 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -13.7803 y: 7.06752 z: 74.3452
+fused_angle: x: -13.8129 y: 6.96549 z: 74.3452
 
 00:00:15:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -9852,7 +9852,7 @@ gyroscope: x: 3.24 y: 14.51 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -13.4877 y: 6.57035 z: 74.8468
+fused_angle: x: -13.5181 y: 6.47109 z: 74.8468
 
 00:00:15:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -9916,7 +9916,7 @@ gyroscope: x: 2.9 y: 14.26 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -13.5183 y: 6.10643 z: 75.018
+fused_angle: x: -13.5467 y: 6.00875 z: 75.018
 
 00:00:15:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -9980,7 +9980,7 @@ gyroscope: x: 2.63 y: 13.99 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -13.3372 y: 5.80162 z: 75.3301
+fused_angle: x: -13.3633 y: 5.70706 z: 75.3301
 
 00:00:15:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -10044,7 +10044,7 @@ gyroscope: x: 2.4 y: 13.63 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -12.7712 y: 5.39298 z: 76.0344
+fused_angle: x: -12.7952 y: 5.30049 z: 76.0344
 
 00:00:15:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -10108,7 +10108,7 @@ gyroscope: x: 2.18 y: 13.19 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -12.4516 y: 5.41361 z: 76.3396
+fused_angle: x: -12.4737 y: 5.32328 z: 76.3396
 
 00:00:15:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -10172,7 +10172,7 @@ gyroscope: x: 1.98 y: 12.74 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -12.1967 y: 5.36944 z: 76.6091
+fused_angle: x: -12.217 y: 5.28145 z: 76.6091
 
 00:00:15:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -10236,7 +10236,7 @@ gyroscope: x: 1.77 y: 12.32 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -11.7868 y: 5.17327 z: 77.0797
+fused_angle: x: -11.8053 y: 5.08782 z: 77.0797
 
 00:00:15:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -10300,7 +10300,7 @@ gyroscope: x: 1.52 y: 11.9 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -11.5887 y: 5.30716 z: 77.2116
+fused_angle: x: -11.6056 y: 5.22406 z: 77.2116
 
 00:00:15:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -10364,7 +10364,7 @@ gyroscope: x: 1.23 y: 11.49 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -11.6754 y: 5.27596 z: 77.1547
+fused_angle: x: -11.6908 y: 5.19537 z: 77.1547
 
 00:00:16:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -10428,7 +10428,7 @@ gyroscope: x: 0.87 y: 11.15 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -11.4749 y: 5.28992 z: 77.3399
+fused_angle: x: -11.4887 y: 5.21202 z: 77.3399
 
 00:00:16:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -10492,7 +10492,7 @@ gyroscope: x: 0.43 y: 10.97 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -11.3214 y: 5.17079 z: 77.5374
+fused_angle: x: -11.3334 y: 5.09536 z: 77.5374
 
 00:00:16:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -10556,7 +10556,7 @@ gyroscope: x: -0.02 y: 10.96 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -11.0818 y: 4.78039 z: 77.9098
+fused_angle: x: -11.0919 y: 4.70711 z: 77.9098
 
 00:00:16:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -10620,7 +10620,7 @@ gyroscope: x: -0.49 y: 10.98 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -11.0678 y: 4.56064 z: 78.0105
+fused_angle: x: -11.0758 y: 4.48921 z: 78.0105
 
 00:00:16:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -10684,7 +10684,7 @@ gyroscope: x: -0.94 y: 10.89 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -11.5857 y: 4.35218 z: 77.5916
+fused_angle: x: -11.5915 y: 4.2819 z: 77.5916
 
 00:00:16:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -10748,7 +10748,7 @@ gyroscope: x: -1.34 y: 10.7 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -12.3199 y: 3.76759 z: 77.0122
+fused_angle: x: -12.3235 y: 3.69857 z: 77.0122
 
 00:00:16:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -10812,7 +10812,7 @@ gyroscope: x: -1.69 y: 10.37 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -12.3474 y: 3.38099 z: 77.0969
+fused_angle: x: -12.3487 y: 3.31326 z: 77.0969
 
 00:00:16:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -10876,7 +10876,7 @@ gyroscope: x: -2 y: 9.94 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -11.8645 y: 2.99335 z: 77.6766
+fused_angle: x: -11.8635 y: 2.92685 z: 77.6766
 
 00:00:16:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -10940,7 +10940,7 @@ gyroscope: x: -2.26 y: 9.43 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -10.9075 y: 2.76447 z: 78.6872
+fused_angle: x: -10.9043 y: 2.69957 z: 78.6872
 
 00:00:16:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -11004,7 +11004,7 @@ gyroscope: x: -2.55 y: 8.86 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -9.81393 y: 2.54411 z: 79.8224
+fused_angle: x: -9.8088 y: 2.48122 z: 79.8224
 
 00:00:17:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -11068,7 +11068,7 @@ gyroscope: x: -2.97 y: 8.28 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -9.09324 y: 2.50038 z: 80.5429
+fused_angle: x: -9.08615 y: 2.43972 z: 80.5429
 
 00:00:17:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -11132,7 +11132,7 @@ gyroscope: x: -3.54 y: 7.72 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -8.35579 y: 2.00841 z: 81.3596
+fused_angle: x: -8.3467 y: 1.95033 z: 81.3596
 
 00:00:17:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -11196,7 +11196,7 @@ gyroscope: x: -4.19 y: 7.25 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -6.81525 y: 1.20054 z: 82.6471
+fused_angle: x: -6.80382 y: 1.14501 z: 82.6471
 
 00:00:17:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -11260,7 +11260,7 @@ gyroscope: x: -4.38 y: 5.95 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -5.10111 y: 0.0683582 z: 83.1406
+fused_angle: x: -5.08726 y: 0.0157802 z: 83.1406
 
 00:00:17:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -11324,7 +11324,7 @@ gyroscope: x: -3.47 y: 4.21 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -4.13879 y: -0.723778 z: 83.7194
+fused_angle: x: -4.12288 y: -0.772395 z: 83.7194
 
 00:00:17:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -11388,7 +11388,7 @@ gyroscope: x: -2.99 y: 3.09 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -6.70737 y: -1.78067 z: 81.3646
+fused_angle: x: -6.69129 y: -1.82362 z: 81.3646
 
 00:00:17:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -11452,7 +11452,7 @@ gyroscope: x: -2.66 y: 2.9 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 4.27921 y: 5.90842 z: 68.5278
+fused_angle: x: 4.29568 y: 5.87033 z: 68.5278
 
 00:00:17:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -11516,7 +11516,7 @@ gyroscope: x: -2.47 y: 2.85 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 9.52378 y: 5.40004 z: 66.6715
+fused_angle: x: 9.54039 y: 5.36582 z: 66.6715
 
 00:00:17:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -11580,7 +11580,7 @@ gyroscope: x: -2.3 y: 2.74 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 5.65933 y: 3.59325 z: 69.2475
+fused_angle: x: 5.67572 y: 3.56229 z: 69.2475
 
 00:00:17:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -11644,7 +11644,7 @@ gyroscope: x: -2.15 y: 2.47 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 2.96472 y: 1.547 z: 71.342
+fused_angle: x: 2.98074 y: 1.51877 z: 71.342
 
 00:00:18:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -11708,7 +11708,7 @@ gyroscope: x: -2.05 y: 2.09 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 1.18905 y: 0.582646 z: 73.722
+fused_angle: x: 1.20448 y: 0.557065 z: 73.722
 
 00:00:18:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -11772,7 +11772,7 @@ gyroscope: x: -2.01 y: 1.64 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 0.709333 y: 0.0792756 z: 76.5197
+fused_angle: x: 0.724314 y: 0.0561189 z: 76.5197
 
 00:00:18:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -11836,7 +11836,7 @@ gyroscope: x: -1.96 y: 1.22 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 0.320457 y: -0.156735 z: 78.8857
+fused_angle: x: 0.335023 y: -0.177366 z: 78.8857
 
 00:00:18:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -11900,7 +11900,7 @@ gyroscope: x: -1.86 y: 0.7 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 0.426612 y: -0.289411 z: 80.867
+fused_angle: x: 0.440711 y: -0.307438 z: 80.867
 
 00:00:18:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -11964,7 +11964,7 @@ gyroscope: x: -1.65 y: -0.15 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -0.042951 y: -0.0455827 z: 82.2712
+fused_angle: x: -0.0293535 y: -0.0608772 z: 82.2712
 
 00:00:18:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -12028,7 +12028,7 @@ gyroscope: x: -1.17 y: -1.12 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -0.795924 y: 0.446893 z: 82.9175
+fused_angle: x: -0.783017 y: 0.434842 z: 82.9175
 
 00:00:18:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -12092,7 +12092,7 @@ gyroscope: x: -0.56 y: -2.44 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -1.65465 y: 2.0099 z: 82.3888
+fused_angle: x: -1.64289 y: 2.00163 z: 82.3888
 
 00:00:18:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -12156,7 +12156,7 @@ gyroscope: x: 0.43 y: -4.34 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -3.25242 y: 1.78886 z: 81.9744
+fused_angle: x: -3.24231 y: 1.78533 z: 81.9744
 
 00:00:18:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -12220,7 +12220,7 @@ gyroscope: x: 1.39 y: -5.55 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -5.17105 y: 1.33484 z: 81.0079
+fused_angle: x: -5.1635 y: 1.33748 z: 81.0079
 
 00:00:18:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -12284,7 +12284,7 @@ gyroscope: x: 2.06 y: -5.38 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -7.98658 y: 2.50194 z: 78.6705
+fused_angle: x: -7.98228 y: 2.51099 z: 78.6705
 
 00:00:19:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -12348,7 +12348,7 @@ gyroscope: x: 1.1 y: -5.61 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -4.13009 y: 1.80367 z: 78.6741
+fused_angle: x: -4.12921 y: 1.81761 z: 78.6741
 
 00:00:19:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -12412,7 +12412,7 @@ gyroscope: x: 0.8 y: -5.16 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -4.28723 y: 6.82778 z: 75.4374
+fused_angle: x: -4.28796 y: 6.84628 z: 75.4374
 
 00:00:19:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -12476,7 +12476,7 @@ gyroscope: x: 0.7 y: -4.74 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 3.8824 y: -3.62609 z: 64.722
+fused_angle: x: 3.88083 y: -3.60495 z: 64.722
 
 00:00:19:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -12540,7 +12540,7 @@ gyroscope: x: 0.89 y: -4.59 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 10.1133 y: -3.12414 z: 62.7676
+fused_angle: x: 10.1112 y: -3.10122 z: 62.7676
 
 00:00:19:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -12604,7 +12604,7 @@ gyroscope: x: 1.13 y: -4.39 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 9.48828 y: -3.3654 z: 66.5748
+fused_angle: x: 9.48547 y: -3.34143 z: 66.5748
 
 00:00:19:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -12668,7 +12668,7 @@ gyroscope: x: 1.37 y: -4.14 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 6.82493 y: -1.85995 z: 70.1186
+fused_angle: x: 6.82122 y: -1.8351 z: 70.1186
 
 00:00:19:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -12732,7 +12732,7 @@ gyroscope: x: 1.5 y: -3.88 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 3.79374 y: -0.207993 z: 71.9799
+fused_angle: x: 3.78906 y: -0.182911 z: 71.9799
 
 00:00:19:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -12796,7 +12796,7 @@ gyroscope: x: 1.52 y: -3.58 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 0.730649 y: 1.85549 z: 72.4911
+fused_angle: x: 0.725016 y: 1.88043 z: 72.4911
 
 00:00:19:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -12860,7 +12860,7 @@ gyroscope: x: 1.53 y: -3.35 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -0.30602 y: 2.96597 z: 74.253
+fused_angle: x: -0.312396 y: 2.99032 z: 74.253
 
 00:00:19:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -12924,7 +12924,7 @@ gyroscope: x: 1.53 y: -3.16 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -0.255771 y: 2.71201 z: 77.0552
+fused_angle: x: -0.262789 y: 2.73569 z: 77.0552
 
 00:00:20:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -12988,7 +12988,7 @@ gyroscope: x: 1.48 y: -3.06 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 0.886294 y: 1.9682 z: 78.5394
+fused_angle: x: 0.878788 y: 1.99105 z: 78.5394
 
 00:00:20:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -13052,7 +13052,7 @@ gyroscope: x: 1.4 y: -2.98 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 1.95426 y: 1.29887 z: 79.5607
+fused_angle: x: 1.94635 y: 1.32109 z: 79.5607
 
 00:00:20:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -13116,7 +13116,7 @@ gyroscope: x: 1.33 y: -2.95 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 2.94007 y: 0.575505 z: 80.2004
+fused_angle: x: 2.93203 y: 0.596925 z: 80.2004
 
 00:00:20:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -13180,7 +13180,7 @@ gyroscope: x: 1.28 y: -2.9 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 3.38498 y: 0.234964 z: 81.1074
+fused_angle: x: 3.37681 y: 0.255944 z: 81.1074
 
 00:00:20:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -13244,7 +13244,7 @@ gyroscope: x: 1.25 y: -2.81 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 3.62819 y: 0.181452 z: 81.9686
+fused_angle: x: 3.62008 y: 0.201825 z: 81.9686
 
 00:00:20:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -13308,7 +13308,7 @@ gyroscope: x: 1.22 y: -2.73 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 3.64636 y: 0.127785 z: 82.8338
+fused_angle: x: 3.63831 y: 0.147593 z: 82.8338
 
 00:00:20:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -13372,7 +13372,7 @@ gyroscope: x: 1.21 y: -2.62 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 3.60653 y: 0.156392 z: 83.5778
+fused_angle: x: 3.59856 y: 0.175658 z: 83.5778
 
 00:00:20:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -13436,7 +13436,7 @@ gyroscope: x: 1.19 y: -2.42 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 3.48502 y: 0.286113 z: 84.2422
+fused_angle: x: 3.47711 y: 0.304846 z: 84.2422
 
 00:00:20:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -13500,7 +13500,7 @@ gyroscope: x: 1.19 y: -2.02 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 3.00434 y: 0.550887 z: 85.0028
+fused_angle: x: 2.99654 y: 0.568875 z: 85.0028
 
 00:00:20:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -13564,7 +13564,7 @@ gyroscope: x: 1.25 y: -1.28 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 2.68458 y: 0.924962 z: 85.4396
+fused_angle: x: 2.67685 y: 0.941884 z: 85.4396
 
 00:00:21:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -13628,7 +13628,7 @@ gyroscope: x: 1.31 y: -0.57 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 3.57863 y: 1.02537 z: 84.8944
+fused_angle: x: 3.57085 y: 1.04053 z: 84.8944
 
 00:00:21:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -13692,7 +13692,7 @@ gyroscope: x: 1.36 y: -0.09 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 2.89012 y: 1.54078 z: 85.1934
+fused_angle: x: 2.88229 y: 1.55361 z: 85.1934
 
 00:00:21:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -13756,7 +13756,7 @@ gyroscope: x: 1.35 y: -0.22 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: 1.41852 y: 1.84397 z: 85.0686
+fused_angle: x: 1.41051 y: 1.85435 z: 85.0686
 
 00:00:21:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -13820,7 +13820,7 @@ gyroscope: x: 1.31 y: -0.19 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -1.31453 y: 2.2468 z: 83.4802
+fused_angle: x: -1.32266 y: 2.25538 z: 83.4802
 
 00:00:21:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -13884,7 +13884,7 @@ gyroscope: x: 1.2 y: -0.23 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -0.691015 y: 2.34063 z: 84.1333
+fused_angle: x: -0.69918 y: 2.34774 z: 84.1333
 
 00:00:21:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -13948,7 +13948,7 @@ gyroscope: x: 1.15 y: -0.15 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -1.61905 y: 2.559 z: 84.0348
+fused_angle: x: -1.62712 y: 2.56498 z: 84.0348
 
 00:00:21:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -14012,7 +14012,7 @@ gyroscope: x: 1.15 y: -0.1 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -1.49025 y: 2.21434 z: 84.9688
+fused_angle: x: -1.49815 y: 2.21932 z: 84.9688
 
 00:00:21:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -14076,7 +14076,7 @@ gyroscope: x: 1.21 y: -0.11 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -1.50636 y: 2.03532 z: 85.5625
+fused_angle: x: -1.51418 y: 2.03943 z: 85.5625
 
 00:00:21:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -14140,7 +14140,7 @@ gyroscope: x: 1.24 y: -0.1 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -1.97763 y: 1.84008 z: 85.6462
+fused_angle: x: -1.98542 y: 1.8435 z: 85.6462
 
 00:00:21:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -14204,7 +14204,7 @@ gyroscope: x: 1.25 y: -0.07 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.06556 y: 2.21192 z: 85.631
+fused_angle: x: -2.07341 y: 2.21479 z: 85.631
 
 00:00:22:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -14268,7 +14268,7 @@ gyroscope: x: 1.27 y: -0.04 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.21453 y: 2.37281 z: 85.6778
+fused_angle: x: -2.22243 y: 2.3752 z: 85.6778
 
 00:00:22:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -14332,7 +14332,7 @@ gyroscope: x: 1.27 y: -0.03 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.17803 y: 2.35842 z: 85.9261
+fused_angle: x: -2.18598 y: 2.36038 z: 85.9261
 
 00:00:22:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -14396,7 +14396,7 @@ gyroscope: x: 1.27 y: -0.03 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.33074 y: 2.32193 z: 86.0065
+fused_angle: x: -2.33876 y: 2.32354 z: 86.0065
 
 00:00:22:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -14460,7 +14460,7 @@ gyroscope: x: 1.26 y: -0.02 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.36414 y: 2.16456 z: 86.2161
+fused_angle: x: -2.37221 y: 2.16589 z: 86.2161
 
 00:00:22:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -14524,7 +14524,7 @@ gyroscope: x: 1.28 y: 0 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.31497 y: 2.016 z: 86.4602
+fused_angle: x: -2.32299 y: 2.01708 z: 86.4602
 
 00:00:22:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -14588,7 +14588,7 @@ gyroscope: x: 1.31 y: 0.02 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.16655 y: 1.95788 z: 86.6992
+fused_angle: x: -2.17457 y: 1.95875 z: 86.6992
 
 00:00:22:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -14652,7 +14652,7 @@ gyroscope: x: 1.33 y: 0.03 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.24365 y: 2.01968 z: 86.6742
+fused_angle: x: -2.25178 y: 2.02035 z: 86.6742
 
 00:00:22:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -14716,7 +14716,7 @@ gyroscope: x: 1.36 y: 0.05 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.25497 y: 2.18369 z: 86.6064
+fused_angle: x: -2.26319 y: 2.18418 z: 86.6064
 
 00:00:22:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -14780,7 +14780,7 @@ gyroscope: x: 1.37 y: 0.06 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.22492 y: 2.32451 z: 86.5685
+fused_angle: x: -2.23314 y: 2.32485 z: 86.5685
 
 00:00:22:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -14844,7 +14844,7 @@ gyroscope: x: 1.38 y: 0.07 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.24579 y: 2.40377 z: 86.5363
+fused_angle: x: -2.25415 y: 2.40396 z: 86.5363
 
 00:00:23:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -14908,7 +14908,7 @@ gyroscope: x: 1.38 y: 0.08 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.25043 y: 2.37447 z: 86.5866
+fused_angle: x: -2.25883 y: 2.37454 z: 86.5866
 
 00:00:23:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -14972,7 +14972,7 @@ gyroscope: x: 1.39 y: 0.09 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.21788 y: 2.27568 z: 86.705
+fused_angle: x: -2.22637 y: 2.27563 z: 86.705
 
 00:00:23:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -15036,7 +15036,7 @@ gyroscope: x: 1.41 y: 0.12 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.25149 y: 2.16303 z: 86.7741
+fused_angle: x: -2.25997 y: 2.16288 z: 86.7741
 
 00:00:23:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -15100,7 +15100,7 @@ gyroscope: x: 1.43 y: 0.15 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.24133 y: 2.08264 z: 86.8531
+fused_angle: x: -2.24987 y: 2.08237 z: 86.8531
 
 00:00:23:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -15164,7 +15164,7 @@ gyroscope: x: 1.45 y: 0.17 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.33428 y: 2.12557 z: 86.7701
+fused_angle: x: -2.34291 y: 2.12517 z: 86.7701
 
 00:00:23:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -15228,7 +15228,7 @@ gyroscope: x: 1.47 y: 0.18 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.43883 y: 2.24795 z: 86.6222
+fused_angle: x: -2.44758 y: 2.24741 z: 86.6222
 
 00:00:23:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -15292,7 +15292,7 @@ gyroscope: x: 1.49 y: 0.19 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.58381 y: 2.38269 z: 86.4339
+fused_angle: x: -2.59263 y: 2.38204 z: 86.4339
 
 00:00:23:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -15356,7 +15356,7 @@ gyroscope: x: 1.49 y: 0.2 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.60044 y: 2.46838 z: 86.3698
+fused_angle: x: -2.60934 y: 2.46762 z: 86.3698
 
 00:00:23:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -15420,7 +15420,7 @@ gyroscope: x: 1.48 y: 0.2 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.50619 y: 2.40995 z: 86.4847
+fused_angle: x: -2.51503 y: 2.40911 z: 86.4847
 
 00:00:23:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -15484,7 +15484,7 @@ gyroscope: x: 1.48 y: 0.19 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.39005 y: 2.21146 z: 86.7071
+fused_angle: x: -2.39881 y: 2.21056 z: 86.7071
 
 00:00:24:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -15548,7 +15548,7 @@ gyroscope: x: 1.48 y: 0.19 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.24795 y: 1.98754 z: 86.9623
+fused_angle: x: -2.25646 y: 1.98663 z: 86.9623
 
 00:00:24:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -15612,7 +15612,7 @@ gyroscope: x: 1.49 y: 0.2 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.08628 y: 1.8461 z: 87.1823
+fused_angle: x: -2.09487 y: 1.84514 z: 87.1823
 
 00:00:24:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -15676,7 +15676,7 @@ gyroscope: x: 1.52 y: 0.22 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.00207 y: 1.79735 z: 87.2814
+fused_angle: x: -2.01064 y: 1.79635 z: 87.2814
 
 00:00:24:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -15740,7 +15740,7 @@ gyroscope: x: 1.54 y: 0.24 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.02286 y: 1.90763 z: 87.1921
+fused_angle: x: -2.03141 y: 1.90659 z: 87.1921
 
 00:00:24:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -15804,7 +15804,7 @@ gyroscope: x: 1.57 y: 0.26 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.05915 y: 2.13337 z: 87.0013
+fused_angle: x: -2.06784 y: 2.13225 z: 87.0013
 
 00:00:24:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -15868,7 +15868,7 @@ gyroscope: x: 1.59 y: 0.27 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.19913 y: 2.29864 z: 86.7894
+fused_angle: x: -2.20802 y: 2.29742 z: 86.7894
 
 00:00:24:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -15932,7 +15932,7 @@ gyroscope: x: 1.6 y: 0.29 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.28666 y: 2.46784 z: 86.6086
+fused_angle: x: -2.29564 y: 2.46655 z: 86.6086
 
 00:00:24:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -15996,7 +15996,7 @@ gyroscope: x: 1.61 y: 0.31 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.34951 y: 2.55709 z: 86.5034
+fused_angle: x: -2.35867 y: 2.5557 z: 86.5034
 
 00:00:24:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -16060,7 +16060,7 @@ gyroscope: x: 1.61 y: 0.32 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.42191 y: 2.53103 z: 86.4724
+fused_angle: x: -2.43104 y: 2.52957 z: 86.4724
 
 00:00:24:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -16124,7 +16124,7 @@ gyroscope: x: 1.61 y: 0.34 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.51111 y: 2.42602 z: 86.4751
+fused_angle: x: -2.52044 y: 2.42445 z: 86.4751
 
 00:00:25:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -16188,7 +16188,7 @@ gyroscope: x: 1.61 y: 0.35 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.54037 y: 2.24503 z: 86.5648
+fused_angle: x: -2.54979 y: 2.24336 z: 86.5648
 
 00:00:25:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -16252,7 +16252,7 @@ gyroscope: x: 1.62 y: 0.36 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.54685 y: 2.1248 z: 86.6384
+fused_angle: x: -2.55625 y: 2.12306 z: 86.6384
 
 00:00:25:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -16316,7 +16316,7 @@ gyroscope: x: 1.64 y: 0.37 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.4554 y: 2.08642 z: 86.7392
+fused_angle: x: -2.46472 y: 2.08463 z: 86.7392
 
 00:00:25:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -16380,7 +16380,7 @@ gyroscope: x: 1.64 y: 0.38 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.42091 y: 2.08025 z: 86.7746
+fused_angle: x: -2.4303 y: 2.07838 z: 86.7746
 
 00:00:25:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -16444,7 +16444,7 @@ gyroscope: x: 1.65 y: 0.39 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.38895 y: 2.1461 z: 86.7567
+fused_angle: x: -2.39843 y: 2.14414 z: 86.7567
 
 00:00:25:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -16508,7 +16508,7 @@ gyroscope: x: 1.66 y: 0.38 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.33966 y: 2.14719 z: 86.7959
+fused_angle: x: -2.34927 y: 2.14514 z: 86.7959
 
 00:00:25:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -16572,7 +16572,7 @@ gyroscope: x: 1.67 y: 0.39 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.31708 y: 2.14004 z: 86.8207
+fused_angle: x: -2.32678 y: 2.13795 z: 86.8207
 
 00:00:25:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -16636,7 +16636,7 @@ gyroscope: x: 1.68 y: 0.4 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.25461 y: 2.12605 z: 86.878
+fused_angle: x: -2.26434 y: 2.12391 z: 86.878
 
 00:00:25:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -16700,7 +16700,7 @@ gyroscope: x: 1.69 y: 0.42 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.19316 y: 2.12557 z: 86.9241
+fused_angle: x: -2.20297 y: 2.12338 z: 86.9241
 
 00:00:25:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -16764,7 +16764,7 @@ gyroscope: x: 1.71 y: 0.43 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.16034 y: 2.18883 z: 86.9024
+fused_angle: x: -2.17026 y: 2.18656 z: 86.9024
 
 00:00:26:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -16828,7 +16828,7 @@ gyroscope: x: 1.73 y: 0.45 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.25704 y: 2.26279 z: 86.7836
+fused_angle: x: -2.26708 y: 2.26044 z: 86.7836
 
 00:00:26:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -16892,7 +16892,7 @@ gyroscope: x: 1.75 y: 0.47 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.40457 y: 2.35881 z: 86.6122
+fused_angle: x: -2.4147 y: 2.35639 z: 86.6122
 
 00:00:26:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -16956,7 +16956,7 @@ gyroscope: x: 1.76 y: 0.48 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.45247 y: 2.45983 z: 86.5079
+fused_angle: x: -2.46266 y: 2.45733 z: 86.5079
 
 00:00:26:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -17020,7 +17020,7 @@ gyroscope: x: 1.76 y: 0.49 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.54046 y: 2.52087 z: 86.4036
+fused_angle: x: -2.55078 y: 2.51829 z: 86.4036
 
 00:00:26:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -17084,7 +17084,7 @@ gyroscope: x: 1.76 y: 0.49 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.55892 y: 2.51801 z: 86.3935
+fused_angle: x: -2.56928 y: 2.51535 z: 86.3935
 
 00:00:26:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -17148,7 +17148,7 @@ gyroscope: x: 1.75 y: 0.49 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.56253 y: 2.3773 z: 86.4816
+fused_angle: x: -2.57301 y: 2.37457 z: 86.4816
 
 00:00:26:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -17212,7 +17212,7 @@ gyroscope: x: 1.76 y: 0.49 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.55047 y: 2.19497 z: 86.6024
+fused_angle: x: -2.56045 y: 2.19233 z: 86.6024
 
 00:00:26:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -17276,7 +17276,7 @@ gyroscope: x: 1.76 y: 0.5 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.50343 y: 2.08306 z: 86.7123
+fused_angle: x: -2.51257 y: 2.08063 z: 86.7123
 
 00:00:26:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -17340,7 +17340,7 @@ gyroscope: x: 1.77 y: 0.52 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.42304 y: 2.05318 z: 86.7964
+fused_angle: x: -2.43154 y: 2.0509 z: 86.7964
 
 00:00:26:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -17404,7 +17404,7 @@ gyroscope: x: 1.79 y: 0.52 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.42027 y: 2.07197 z: 86.7893
+fused_angle: x: -2.42824 y: 2.0698 z: 86.7893
 
 00:00:27:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -17468,7 +17468,7 @@ gyroscope: x: 1.8 y: 0.53 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.42189 y: 2.15674 z: 86.7328
+fused_angle: x: -2.42944 y: 2.15466 z: 86.7328
 
 00:00:27:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -17532,7 +17532,7 @@ gyroscope: x: 1.81 y: 0.52 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.41982 y: 2.22126 z: 86.6923
+fused_angle: x: -2.42714 y: 2.21922 z: 86.6923
 
 00:00:27:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -17596,7 +17596,7 @@ gyroscope: x: 1.81 y: 0.52 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.32907 y: 2.29527 z: 86.7015
+fused_angle: x: -2.33608 y: 2.29331 z: 86.7015
 
 00:00:27:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -17660,7 +17660,7 @@ gyroscope: x: 1.81 y: 0.52 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.24257 y: 2.27929 z: 86.776
+fused_angle: x: -2.24925 y: 2.27742 z: 86.776
 
 00:00:27:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -17724,7 +17724,7 @@ gyroscope: x: 1.81 y: 0.53 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.14933 y: 2.21452 z: 86.8904
+fused_angle: x: -2.15589 y: 2.21267 z: 86.8904
 
 00:00:27:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -17788,7 +17788,7 @@ gyroscope: x: 1.83 y: 0.54 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.14916 y: 2.14911 z: 86.9379
+fused_angle: x: -2.15576 y: 2.14723 z: 86.9379
 
 00:00:27:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -17852,7 +17852,7 @@ gyroscope: x: 1.84 y: 0.56 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.17239 y: 2.14191 z: 86.9284
+fused_angle: x: -2.17902 y: 2.14001 z: 86.9284
 
 00:00:27:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -17916,7 +17916,7 @@ gyroscope: x: 1.85 y: 0.58 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.20936 y: 2.21813 z: 86.85
+fused_angle: x: -2.21603 y: 2.2162 z: 86.85
 
 00:00:27:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -17980,7 +17980,7 @@ gyroscope: x: 1.86 y: 0.6 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.29614 y: 2.27814 z: 86.7474
+fused_angle: x: -2.30271 y: 2.27621 z: 86.7474
 
 00:00:27:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -18044,7 +18044,7 @@ gyroscope: x: 1.86 y: 0.6 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.41656 y: 2.35239 z: 86.6101
+fused_angle: x: -2.42286 y: 2.3505 z: 86.6101
 
 00:00:28:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -18108,7 +18108,7 @@ gyroscope: x: 1.87 y: 0.61 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.46871 y: 2.34826 z: 86.5755
+fused_angle: x: -2.47437 y: 2.34655 z: 86.5755
 
 00:00:28:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -18172,7 +18172,7 @@ gyroscope: x: 1.87 y: 0.62 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.52126 y: 2.3225 z: 86.5539
+fused_angle: x: -2.5264 y: 2.32093 z: 86.5539
 
 00:00:28:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -18236,7 +18236,7 @@ gyroscope: x: 1.87 y: 0.62 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.51572 y: 2.27854 z: 86.5882
+fused_angle: x: -2.52025 y: 2.27715 z: 86.5882
 
 00:00:28:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -18300,7 +18300,7 @@ gyroscope: x: 1.87 y: 0.62 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.53508 y: 2.24613 z: 86.5955
+fused_angle: x: -2.53884 y: 2.24498 z: 86.5955
 
 00:00:28:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -18364,7 +18364,7 @@ gyroscope: x: 1.88 y: 0.62 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.47477 y: 2.1777 z: 86.6869
+fused_angle: x: -2.47781 y: 2.17676 z: 86.6869
 
 00:00:28:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -18428,7 +18428,7 @@ gyroscope: x: 1.89 y: 0.62 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.45181 y: 2.13995 z: 86.7298
+fused_angle: x: -2.45397 y: 2.13929 z: 86.7298
 
 00:00:28:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -18492,7 +18492,7 @@ gyroscope: x: 1.89 y: 0.62 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.42484 y: 2.15926 z: 86.7375
+fused_angle: x: -2.42693 y: 2.15861 z: 86.7375
 
 00:00:28:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -18556,7 +18556,7 @@ gyroscope: x: 1.89 y: 0.62 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.36263 y: 2.16976 z: 86.776
+fused_angle: x: -2.36455 y: 2.16916 z: 86.776
 
 00:00:28:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -18620,7 +18620,7 @@ gyroscope: x: 1.9 y: 0.62 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.29637 y: 2.13947 z: 86.8459
+fused_angle: x: -2.29851 y: 2.1388 z: 86.8459
 
 00:00:28:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -18684,7 +18684,7 @@ gyroscope: x: 1.9 y: 0.62 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.18727 y: 2.11218 z: 86.9427
+fused_angle: x: -2.18962 y: 2.11143 z: 86.9427
 
 00:00:29:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -18748,7 +18748,7 @@ gyroscope: x: 1.9 y: 0.63 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.20111 y: 2.15276 z: 86.9053
+fused_angle: x: -2.20371 y: 2.15192 z: 86.9053
 
 00:00:29:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -18812,7 +18812,7 @@ gyroscope: x: 1.91 y: 0.64 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.21977 y: 2.12114 z: 86.9135
+fused_angle: x: -2.22292 y: 2.12011 z: 86.9135
 
 00:00:29:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -18876,7 +18876,7 @@ gyroscope: x: 1.93 y: 0.65 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.26828 y: 2.15651 z: 86.8548
+fused_angle: x: -2.27131 y: 2.15552 z: 86.8548
 
 00:00:29:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -18940,7 +18940,7 @@ gyroscope: x: 1.94 y: 0.66 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.31082 y: 2.20791 z: 86.7892
+fused_angle: x: -2.31414 y: 2.20682 z: 86.7892
 
 00:00:29:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -19004,7 +19004,7 @@ gyroscope: x: 1.95 y: 0.67 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.33608 y: 2.30104 z: 86.7058
+fused_angle: x: -2.33975 y: 2.29982 z: 86.7058
 
 00:00:29:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -19068,7 +19068,7 @@ gyroscope: x: 1.96 y: 0.68 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.36161 y: 2.38382 z: 86.6293
+fused_angle: x: -2.36558 y: 2.38249 z: 86.6293
 
 00:00:29:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -19132,7 +19132,7 @@ gyroscope: x: 1.97 y: 0.68 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.42485 y: 2.43765 z: 86.5471
+fused_angle: x: -2.42918 y: 2.43618 z: 86.5471
 
 00:00:29:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -19196,7 +19196,7 @@ gyroscope: x: 1.96 y: 0.68 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.40626 y: 2.47253 z: 86.5353
+fused_angle: x: -2.41089 y: 2.47095 z: 86.5353
 
 00:00:29:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -19260,7 +19260,7 @@ gyroscope: x: 1.96 y: 0.67 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.39649 y: 2.43341 z: 86.5704
+fused_angle: x: -2.40205 y: 2.4315 z: 86.5704
 
 00:00:29:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -19324,7 +19324,7 @@ gyroscope: x: 1.96 y: 0.67 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.36117 y: 2.30024 z: 86.6862
+fused_angle: x: -2.36769 y: 2.29801 z: 86.6862
 
 00:00:30:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -19388,7 +19388,7 @@ gyroscope: x: 1.96 y: 0.67 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.30665 y: 2.19768 z: 86.7967
+fused_angle: x: -2.31402 y: 2.19516 z: 86.7967
 
 00:00:30:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -19452,7 +19452,7 @@ gyroscope: x: 1.96 y: 0.68 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.26525 y: 2.1124 z: 86.8854
+fused_angle: x: -2.2733 y: 2.10964 z: 86.8854
 
 00:00:30:200
 State for model accel_x_0 is next time: 00:00:00:100
@@ -19516,7 +19516,7 @@ gyroscope: x: 1.97 y: 0.69 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.23289 y: 2.06693 z: 86.941
+fused_angle: x: -2.24149 y: 2.06398 z: 86.941
 
 00:00:30:300
 State for model accel_x_0 is next time: 00:00:00:100
@@ -19580,7 +19580,7 @@ gyroscope: x: 1.97 y: 0.7 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.23728 y: 2.10226 z: 86.9144
+fused_angle: x: -2.24639 y: 2.09911 z: 86.9144
 
 00:00:30:400
 State for model accel_x_0 is next time: 00:00:00:100
@@ -19644,7 +19644,7 @@ gyroscope: x: 1.98 y: 0.71 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.30591 y: 2.16501 z: 86.8222
+fused_angle: x: -2.31542 y: 2.1617 z: 86.8222
 
 00:00:30:500
 State for model accel_x_0 is next time: 00:00:00:100
@@ -19708,7 +19708,7 @@ gyroscope: x: 1.99 y: 0.71 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.2731 y: 2.191 z: 86.8271
+fused_angle: x: -2.2846 y: 2.18696 z: 86.8271
 
 00:00:30:600
 State for model accel_x_0 is next time: 00:00:00:100
@@ -19772,7 +19772,7 @@ gyroscope: x: 1.99 y: 0.72 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.34439 y: 2.24612 z: 86.7382
+fused_angle: x: -2.35559 y: 2.24218 z: 86.7382
 
 00:00:30:700
 State for model accel_x_0 is next time: 00:00:00:100
@@ -19836,7 +19836,7 @@ gyroscope: x: 2 y: 0.73 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.3926 y: 2.26994 z: 86.6873
+fused_angle: x: -2.40392 y: 2.26593 z: 86.6873
 
 00:00:30:800
 State for model accel_x_0 is next time: 00:00:00:100
@@ -19900,7 +19900,7 @@ gyroscope: x: 2.01 y: 0.73 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.45129 y: 2.29011 z: 86.6308
+fused_angle: x: -2.46217 y: 2.28624 z: 86.6308
 
 00:00:30:900
 State for model accel_x_0 is next time: 00:00:00:100
@@ -19964,7 +19964,7 @@ gyroscope: x: 2.02 y: 0.74 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.4366 y: 2.32489 z: 86.6177
+fused_angle: x: -2.44728 y: 2.32107 z: 86.6177
 
 00:00:31:000
 State for model accel_x_0 is next time: 00:00:00:100
@@ -20028,7 +20028,7 @@ gyroscope: x: 2.02 y: 0.75 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.44592 y: 2.34317 z: 86.5989
+fused_angle: x: -2.45613 y: 2.33951 z: 86.5989
 
 00:00:31:100
 State for model accel_x_0 is next time: 00:00:00:100
@@ -20092,7 +20092,7 @@ gyroscope: x: 2.03 y: 0.75 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.42725 y: 2.39655 z: 86.5595
+fused_angle: x: -2.44542 y: 2.3899 z: 86.5595
 
 00:00:31:200
 State for model accel_x_0 is next time: inf
@@ -20156,5 +20156,5 @@ gyroscope: x: 2.03 y: 0.75 z: 0
 IMU offset: x: 0 y: 0 z: 0
 
 State for model fusion_controller_0 is 
-fused_angle: x: -2.41517 y: 2.38544 z: 86.5787
+fused_angle: x: -2.4331 y: 2.37887 z: 86.5787
 

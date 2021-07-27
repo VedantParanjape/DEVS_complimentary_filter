@@ -7,8 +7,87 @@
 #include <chrono>
 #include <cstdint>
 
+const float threshold = 0.02;
+
+float majortiy_vote_algorithm_helper(std::vector<float> data)
+{
+    float maj_index = 0;
+    int count = 1;
+
+    for (int i = 0; i < data.size(); i++)
+    {
+        if ((std::ceil(std::fabs(data[maj_index] - data[i])*100) / 100) < threshold)
+        {
+            count++;
+        }
+        else if (count == 0)
+        {
+            maj_index = i;
+            count = 1;
+        }
+        else
+        {
+            count--;
+        }
+    }
+
+    count = 0;
+    float majority_reading = 0;
+    for (int i = 0; i < data.size(); i++)
+    {
+        if ((std::ceil(std::fabs(data[maj_index] - data[i])*100) / 100) < threshold)
+        {
+            count++;
+        }
+
+        if (count > data.size() / 2)
+        {
+            majority_reading = data[maj_index];
+        }
+    }
+
+    return majority_reading;
+}
+
+std::vector<float> extract_readings(std::vector<std::vector<float>> &data, int index)
+{
+    std::vector<float> return_vector;
+    for (int i = 0; i < data.size(); i++)
+    {
+        return_vector.push_back(data[i][index]);
+    }
+
+    return return_vector;
+}
+
 std::vector<std::vector<float>> majority_vote_algorithm(std::vector<std::vector<float>>& accel, std::vector<std::vector<float>>& gyro)
 {
-    return {accel[0], gyro[0]};
+    /**
+     * accel - {
+     *     1{x, y, z},
+     *     2{x, y, z},
+     *     3{x, y, z},
+     *     4{x, y, z},
+     *     5{x, y, z}
+     * }
+     * 
+     * gyro - {
+     *     1{x, y, z},
+     *     2{x, y, z},
+     *     3{x, y, z},
+     *     4{x, y, z},
+     *     5{x, y, z}
+     * }
+     */
+    
+    float acc_x = majortiy_vote_algorithm_helper(extract_readings(accel, 0));
+    float acc_y = majortiy_vote_algorithm_helper(extract_readings(accel, 1));
+    float acc_z = majortiy_vote_algorithm_helper(extract_readings(accel, 2));
+    float gyro_x = majortiy_vote_algorithm_helper(extract_readings(gyro, 0));
+    float gyro_y = majortiy_vote_algorithm_helper(extract_readings(gyro, 1));
+    float gyro_z = majortiy_vote_algorithm_helper(extract_readings(gyro, 2));
+
+    return {{acc_x, acc_y, acc_z}, {gyro_x, gyro_y, gyro_z}};
 }
+
 #endif
