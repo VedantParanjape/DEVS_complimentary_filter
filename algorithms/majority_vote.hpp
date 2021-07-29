@@ -16,7 +16,7 @@ float majortiy_vote_algorithm_helper(std::vector<float> data)
 
     for (int i = 0; i < data.size(); i++)
     {
-        if ((std::ceil(std::fabs(data[maj_index] - data[i])*100) / 100) < threshold)
+        if ((std::ceil(std::fabs(data[maj_index] - data[i])*100) / 100) <= threshold)
         {
             count++;
         }
@@ -35,16 +35,21 @@ float majortiy_vote_algorithm_helper(std::vector<float> data)
     float majority_reading = 0;
     for (int i = 0; i < data.size(); i++)
     {
-        if ((std::ceil(std::fabs(data[maj_index] - data[i])*100) / 100) < threshold)
+        if ((std::ceil(std::fabs(data[maj_index] - data[i])*100) / 100) <= threshold)
         {
             count++;
         }
-
-        if (count > data.size() / 2)
-        {
-            majority_reading = data[maj_index];
-        }
     }
+    if (count > data.size() / 2)
+    {
+        majority_reading = data[maj_index];
+    }
+
+    // else
+    // {
+    //     for (auto &i: data) majority_reading += i;
+    //     majority_reading = majority_reading / data.size();
+    // }
 
     return majority_reading;
 }
