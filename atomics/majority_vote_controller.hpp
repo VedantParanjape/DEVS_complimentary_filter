@@ -54,6 +54,7 @@ public:
         state.accel_readings_vote = std::vector<float> (3);
         state.gyro_readings_vote = std::vector<float> (3);
         state.imu_offsets_vote = std::vector<float> (3);
+
         state.active = false;
     }
 
@@ -123,6 +124,7 @@ public:
         state.accel_readings_vote = majority_vote_output[0];
         state.gyro_readings_vote = majority_vote_output[1];
         state.active = true;
+        std::cout << state.accel_readings_vote[1] << " " << in_accel_array[0][0] << e << "\n";
     }
 
     // confluent transition function
