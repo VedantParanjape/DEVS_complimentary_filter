@@ -92,7 +92,7 @@ public:
     TIME time_advance() const 
     {
         // + TODO: what should be time here ?
-        return state.active ? TIME("00:00:00:100") : std::numeric_limits<TIME>::infinity();
+        return state.active ? TIME("00:00:00:00") : std::numeric_limits<TIME>::infinity();
     }
 
     friend ostringstream& operator<<(ostringstream& os, const typename fusion_controller<TIME>::state_type& i) 

@@ -55,6 +55,25 @@ class InputReader : public iestream_input<float, T, iestream_input_defs<float>>
 };
 #endif
 
+// #include "mbed.h"
+// #include "MPU6050.h"
+// #include "driver.hpp"
+
+// int main()
+// {
+//     IMU imu_driver;
+//     MPU6050 *gyro = imu_driver.init(D14, D15);
+
+//     while(1)
+//     {
+//         float readings[3];
+
+//         gyro->getGyro(readings);
+//         std::cout << readings[0] << " " << readings[1] << " " << readings[2] << std::endl;
+//         std::cout << gyro->testConnection() << std::endl;
+//     }
+// }
+
 int main()
 {
     // to measure simulation execution time
@@ -139,7 +158,8 @@ int main()
     using global_time_mes=logger::logger<logger::logger_global_time, dynamic::logger::formatter<TIME>, oss_sink_messages>;
     using global_time_sta=logger::logger<logger::logger_global_time, dynamic::logger::formatter<TIME>, oss_sink_state>;
     using logger_top=logger::multilogger<state, log_messages, global_time_mes, global_time_sta>;
-
+    std::cout << "it works\n";
+    
     cadmium::dynamic::engine::runner<NDTime, logger_top> run(TOP, NDTime("00:00:00"));
     run.run_until(NDTime("00:00:31:300"));
 

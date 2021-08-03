@@ -38,14 +38,14 @@ public:
     gyroscope(PinName sda, PinName scl) noexcept
     {
         refresh_rate = TIME("00:00:00:100");
-        gyro = &imu_driver.init(sda, scl);
+        gyro = imu_driver.init(sda, scl);
     }
 
     // parameterized constructor
     gyroscope(TIME refresh_rate_sensor, PinName sda, PinName scl)
     {
         refresh_rate = refresh_rate_sensor;
-        gyro = &imu_driver.init(sda, scl);
+        gyro = imu_driver.init(sda, scl);
     }
 
     struct state_type
@@ -96,6 +96,7 @@ public:
     friend ostringstream& operator<<(ostringstream& os, const typename gyroscope<TIME>::state_type& i) 
     {
         os << "gyroscope raw readings:" << " x: " << i.gyro[0] << " y: " << i.gyro[1] << " z: " << i.gyro[2] << "\n";
+        std::cout << "gyroscope raw readings:" << " x: " << i.gyro[0] << " y: " << i.gyro[1] << " z: " << i.gyro[2] << "\n";
         
         return os;
     }

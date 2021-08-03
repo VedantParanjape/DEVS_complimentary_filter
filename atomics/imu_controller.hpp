@@ -97,7 +97,7 @@ public:
     // time_advance function
     TIME time_advance() const 
     {
-        return state.active ? TIME("00:00:00:100") : std::numeric_limits<TIME>::infinity();
+        return state.active ? TIME("00:00:00:00") : std::numeric_limits<TIME>::infinity();
     }
 
     friend ostringstream& operator<<(ostringstream& os, const typename imu_controller<TIME>::state_type& i) 

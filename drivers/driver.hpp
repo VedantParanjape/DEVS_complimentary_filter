@@ -12,7 +12,7 @@ class IMU
         inline static std::vector<MPU6050*> sensor_array;
         inline static std::vector<std::pair<PinName, PinName>> sensor_pin_array;
     public:
-        MPU6050& init(PinName sda, PinName scl)
+        MPU6050* init(PinName sda, PinName scl)
         {
             int flag = -1;
             for (unsigned int i = 0; i < sensor_pin_array.size(); i++)
@@ -34,7 +34,7 @@ class IMU
                 flag = sensor_array.size() - 1;
             }
 
-            return *sensor_array[flag];
+            return sensor_array[flag];
         }
 };
 // std::vector<std::pair<MPU6050, std::pair<PinName, PinName>>> IMU::sensor_array;
