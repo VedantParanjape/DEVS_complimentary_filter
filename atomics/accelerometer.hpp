@@ -37,7 +37,7 @@ public:
     // default constructor
     accelerometer(PinName sda, PinName scl) noexcept
     {
-        refresh_rate = TIME("00:00:00:100");
+        refresh_rate = TIME("00:00:00:200");
         accel = imu_driver.init(sda, scl);
     }
 
@@ -95,8 +95,11 @@ public:
 
     friend ostringstream& operator<<(ostringstream& os, const typename accelerometer<TIME>::state_type& i) 
     {
+#if defined(RT_ARM_MBED)
         std::cout << "accelerometer raw readings:" << " x: " << i.accel[0] << " y: " << i.accel[1] << " z: " << i.accel[2] << "\n";
-        
+#else
+        os << "accelerometer raw readings:" << " x: " << i.accel[0] << " y: " << i.accel[1] << " z: " << i.accel[2] << "\n";
+#endif
         return os;
     }
 };

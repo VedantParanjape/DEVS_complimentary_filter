@@ -63,6 +63,7 @@ class InputReader : public iestream_input<float, T, iestream_input_defs<float>>
 // {
 //     IMU imu_driver;
 //     MPU6050 *gyro = imu_driver.init(D14, D15);
+//     // MPU6050 *gyro = new MPU6050(D14, D15);
 
 //     while(1)
 //     {
@@ -158,10 +159,9 @@ int main()
     using global_time_mes=logger::logger<logger::logger_global_time, dynamic::logger::formatter<TIME>, oss_sink_messages>;
     using global_time_sta=logger::logger<logger::logger_global_time, dynamic::logger::formatter<TIME>, oss_sink_state>;
     using logger_top=logger::multilogger<state, log_messages, global_time_mes, global_time_sta>;
-    std::cout << "it works\n";
     
     cadmium::dynamic::engine::runner<NDTime, logger_top> run(TOP, NDTime("00:00:00"));
-    run.run_until(NDTime("00:00:31:300"));
+    run.run_until_passivate();
 
     return 0;
 }   

@@ -92,13 +92,17 @@ public:
     TIME time_advance() const 
     {
         // + TODO: what should be time here ?
-        return state.active ? TIME("00:00:00:100") : std::numeric_limits<TIME>::infinity();
+        return state.active ? TIME("00:00:00:00") : std::numeric_limits<TIME>::infinity();
     }
 
     friend ostringstream& operator<<(ostringstream& os, const typename fusion_controller<TIME>::state_type& i) 
     {
-        std::cout << "\n";
+#if defined(RT_ARM_MBED)        
         std::cout << "fused_angle:" << " x: " << i.fused_angle[0] << " y: " << i.fused_angle[1] << " z: " << i.fused_angle[2] << "\n";
+#else
+        os << "\n";
+        os << "fused_angle:" << " x: " << i.fused_angle[0] << " y: " << i.fused_angle[1] << " z: " << i.fused_angle[2] << "\n";
+#endif
         return os;
     }
 };

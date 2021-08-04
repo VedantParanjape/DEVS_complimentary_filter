@@ -33,10 +33,8 @@ class IMU
                 sensor_array.emplace_back(sensor);
                 flag = sensor_array.size() - 1;
             }
-
             return sensor_array[flag];
         }
 };
-// std::vector<std::pair<MPU6050, std::pair<PinName, PinName>>> IMU::sensor_array;
 
 #endif

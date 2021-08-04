@@ -97,15 +97,21 @@ public:
     // time_advance function
     TIME time_advance() const 
     {
-        return state.active ? TIME("00:00:00:100") : std::numeric_limits<TIME>::infinity();
+        return state.active ? TIME("00:00:00:00") : std::numeric_limits<TIME>::infinity();
     }
 
     friend ostringstream& operator<<(ostringstream& os, const typename imu_controller<TIME>::state_type& i) 
     {
-        std::cout << "\n";
+#if defined(RT_ARM_MBED)        
         std::cout << "accelerometer:" << " x: " << i.accel_readings[0] << " y: " << i.accel_readings[1] << " z: " << i.accel_readings[2] << "\n";
         std::cout << "gyroscope:" << " x: " << i.gyro_readings[0] << " y: " << i.gyro_readings[1] << " z: " << i.gyro_readings[2] << "\n";
         std::cout << "IMU offset:" << " x: " << i.imu_offsets[0] << " y: " << i.imu_offsets[1] << " z: " << i.imu_offsets[2] << "\n";
+#else
+        os << "\n";
+        os << "accelerometer:" << " x: " << i.accel_readings[0] << " y: " << i.accel_readings[1] << " z: " << i.accel_readings[2] << "\n";
+        os << "gyroscope:" << " x: " << i.gyro_readings[0] << " y: " << i.gyro_readings[1] << " z: " << i.gyro_readings[2] << "\n";
+        os << "IMU offset:" << " x: " << i.imu_offsets[0] << " y: " << i.imu_offsets[1] << " z: " << i.imu_offsets[2] << "\n";
+#endif
         return os;
     }
 };
