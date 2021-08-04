@@ -37,15 +37,15 @@ public:
     // default constructor
     accelerometer(PinName sda, PinName scl) noexcept
     {
-        refresh_rate = TIME("00:00:00:100");
-        accel = &imu_driver.init(sda, scl);
+        refresh_rate = TIME("00:00:00:200");
+        accel = imu_driver.init(sda, scl);
     }
 
     // parameterized constructor
     accelerometer(TIME refresh_rate_sensor, PinName sda, PinName scl)
     {
         refresh_rate = refresh_rate_sensor;
-        accel = &imu_driver.init(sda, scl);
+        accel = imu_driver.init(sda, scl);
     }
 
     struct state_type
@@ -94,9 +94,12 @@ public:
     }
 
     friend ostringstream& operator<<(ostringstream& os, const typename accelerometer<TIME>::state_type& i) 
-    {
+    {        
+#if defined(RT_ARM_MBED)
+        // printf("accelerometer raw readings: x:%f y:%f z:%f\n", i.accel[0], i.accel[1], i.accel[2]);
+#else
         os << "accelerometer raw readings:" << " x: " << i.accel[0] << " y: " << i.accel[1] << " z: " << i.accel[2] << "\n";
-        
+#endif
         return os;
     }
 };

@@ -1,5 +1,10 @@
 {
     "target_overrides": {
+        "*": {
+            "rtos.main-thread-stack-size" : "8192",
+            "target.printf_lib" : "std",
+            "platform.error-filename-capture-enabled" : "true"
+        },
         "K64F": {
             "platform.stdio-baud-rate": 9600
         }

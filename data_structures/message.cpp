@@ -4,9 +4,9 @@
 /************* Output stream ************************/
 /***************************************************/
 
-template<typename T>
-ostream& operator<<(ostream& os, const vector<T>& msg) {
-  os << " x: " << msg[0] << " y: " << msg[1] << " z: " << msg[2] << "\n";
+ostream& operator<<(ostream& os, const cartesian_vector& msg) {
+  os << " x: " << msg.data[0] << " y: " << msg.data[1] << " z: " << msg.data[2];
+  
   return os;
 }
 
@@ -14,8 +14,8 @@ ostream& operator<<(ostream& os, const vector<T>& msg) {
 /************* Input stream ************************/
 /***************************************************/
 
-template<typename T>
-istream& operator>> (istream& is, vector<T>& msg) {
-  is >> msg[0] >> msg[1] >> msg[2];
+istream& operator>> (istream& is, cartesian_vector& msg) { 
+  is >> msg.data[0] >> msg.data[1] >> msg.data[2];
+
   return is;
 }

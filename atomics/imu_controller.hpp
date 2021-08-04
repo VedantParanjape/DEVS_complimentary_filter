@@ -3,7 +3,7 @@
 
 #include <cadmium/modeling/ports.hpp>
 #include <cadmium/modeling/message_bag.hpp>
-
+#include "message.hpp"
 #include <assert.h>
 #include <string>
 #include <random>
@@ -22,9 +22,9 @@ struct imu_controller_ports
     struct in_gyro_y : public in_port<float> {};
     struct in_gyro_z : public in_port<float> {};
 
-    struct out_gyro : public out_port<std::vector<float>> {};
-    struct out_accel : public out_port<std::vector<float>> {};
-    struct out_offset : public out_port<std::vector<float>> {};
+    struct out_gyro : public out_port<cartesian_vector> {};
+    struct out_accel : public out_port<cartesian_vector> {};
+    struct out_offset : public out_port<cartesian_vector> {};
 };
 
 template <typename TIME>
@@ -87,9 +87,9 @@ public:
         typename make_message_bags<output_ports>::type bags;
         
         // + TODO: add checking for validity of the data
-        get_messages<typename imu_controller_ports::out_accel>(bags).push_back(state.accel_readings);
-        get_messages<typename imu_controller_ports::out_gyro>(bags).push_back(state.gyro_readings);
-        get_messages<typename imu_controller_ports::out_offset>(bags).push_back(state.imu_offsets);
+        get_messages<typename imu_controller_ports::out_accel>(bags).push_back(cartesian_vector(state.accel_readings));
+        get_messages<typename imu_controller_ports::out_gyro>(bags).push_back(cartesian_vector(state.gyro_readings));
+        get_messages<typename imu_controller_ports::out_offset>(bags).push_back(cartesian_vector(state.imu_offsets));
 
         return bags;
     }
@@ -102,10 +102,16 @@ public:
 
     friend ostringstream& operator<<(ostringstream& os, const typename imu_controller<TIME>::state_type& i) 
     {
+#if defined(RT_ARM_MBED)        
+        // printf("accelerometer: x:%f y:%f z:%f\n", i.accel_readings[0], i.accel_readings[1], i.accel_readings[2]);
+        // printf("gyroscope: x:%f y:%f z:%f\n", i.gyro_readings[0], i.gyro_readings[1], i.gyro_readings[2]);
+        // printf("IMU offset: x:%f y:%f z:%f\n", i.imu_offsets[0], i.imu_offsets[1], i.imu_offsets[2]);
+#else
         os << "\n";
         os << "accelerometer:" << " x: " << i.accel_readings[0] << " y: " << i.accel_readings[1] << " z: " << i.accel_readings[2] << "\n";
         os << "gyroscope:" << " x: " << i.gyro_readings[0] << " y: " << i.gyro_readings[1] << " z: " << i.gyro_readings[2] << "\n";
         os << "IMU offset:" << " x: " << i.imu_offsets[0] << " y: " << i.imu_offsets[1] << " z: " << i.imu_offsets[2] << "\n";
+#endif
         return os;
     }
 };

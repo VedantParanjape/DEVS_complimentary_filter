@@ -232,26 +232,29 @@ int main()
         ics_TOP);
 
     /*************** Loggers *******************/
-    static ofstream out_messages("./outputs/DEVS_complimentary_output_messages.txt");
-    struct oss_sink_messages{
-        static ostream& sink(){          
-            return out_messages;
-        }
+    static std::ofstream out_data("./outputs/DEVS_complimentary_filter_output.txt");
+    struct oss_sink_provider{
+      static std::ostream& sink(){
+        return out_data;
+      }
     };
-    static ofstream out_state("./outputs/DEVS_complimentary_output_state.txt");
-    struct oss_sink_state{
-        static ostream& sink(){          
-            return out_state;
-        }
-    };
-    
-    using state=logger::logger<logger::logger_state, dynamic::logger::formatter<TIME>, oss_sink_state>;
-    using log_messages=logger::logger<logger::logger_messages, dynamic::logger::formatter<TIME>, oss_sink_messages>;
-    using global_time_mes=logger::logger<logger::logger_global_time, dynamic::logger::formatter<TIME>, oss_sink_messages>;
-    using global_time_sta=logger::logger<logger::logger_global_time, dynamic::logger::formatter<TIME>, oss_sink_state>;
-    using logger_top=logger::multilogger<state, log_messages, global_time_mes, global_time_sta>;
 
+    using info=cadmium::logger::logger<cadmium::logger::logger_info, cadmium::dynamic::logger::formatter<TIME>, oss_sink_provider>;
+    using debug=cadmium::logger::logger<cadmium::logger::logger_debug, cadmium::dynamic::logger::formatter<TIME>, oss_sink_provider>;
+    using state=cadmium::logger::logger<cadmium::logger::logger_state, cadmium::dynamic::logger::formatter<TIME>, oss_sink_provider>;
+    using log_messages=cadmium::logger::logger<cadmium::logger::logger_messages, cadmium::dynamic::logger::formatter<TIME>, oss_sink_provider>;
+    using routing=cadmium::logger::logger<cadmium::logger::logger_message_routing, cadmium::dynamic::logger::formatter<TIME>, oss_sink_provider>;
+    using global_time=cadmium::logger::logger<cadmium::logger::logger_global_time, cadmium::dynamic::logger::formatter<TIME>, oss_sink_provider>;
+    using local_time=cadmium::logger::logger<cadmium::logger::logger_local_time, cadmium::dynamic::logger::formatter<TIME>, oss_sink_provider>;
+    using log_all=cadmium::logger::multilogger<info, debug, state, log_messages, routing, global_time, local_time>;
+    using logger_top=cadmium::logger::multilogger<log_messages, global_time>;
+
+#if !defined(RT_ARM_MBED)
     cadmium::dynamic::engine::runner<NDTime, logger_top> run(TOP, NDTime("00:00:00"));
+#else
+    cadmium::dynamic::engine::runner<NDTime, cadmium::logger::not_logger> run(TOP, NDTime("00:00:00"));
+#endif
+
     run.run_until(NDTime("00:00:31:300"));
 
     return 0;

@@ -15,7 +15,7 @@ embedded:
 	mbed compile --target $(COMPILE_TARGET) --toolchain GCC_ARM --profile ../cadmium.json
 
 flash:
-	sudo cp ../BUILD/$(COMPILE_TARGET)/GCC_ARM-CADMIUM/*.bin /media/$(USER)/$(FLASH_TARGET)/
+	cp ../BUILD/$(COMPILE_TARGET)/GCC_ARM-CADMIUM/*.bin /media/$(USER)/$(FLASH_TARGET)/
 	$(info *** FLASH MAKE TAKE ~10 Seconds! DO NOT RESET WHILE COM PORT LED IS FLASHING! ***)
 
 

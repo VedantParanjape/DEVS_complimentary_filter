@@ -4,7 +4,7 @@
 #include <cadmium/modeling/ports.hpp>
 #include <cadmium/modeling/message_bag.hpp>
 #include "complimentary_filter.hpp"
-
+#include "message.hpp"
 #include <assert.h>
 #include <string>
 #include <random>
@@ -15,11 +15,11 @@ using namespace std;
 
 struct fusion_controller_ports
 {
-    struct in_accel : public in_port<std::vector<float>> {};
-    struct in_gyro : public in_port<std::vector<float>> {};
-    struct in_offset: public in_port<std::vector<float>> {};
+    struct in_accel : public in_port<cartesian_vector> {};
+    struct in_gyro : public in_port<cartesian_vector> {};
+    struct in_offset: public in_port<cartesian_vector> {};
 
-    struct out_fused_angle : public out_port<std::vector<float>> {};
+    struct out_fused_angle : public out_port<cartesian_vector> {};
 };
 
 template <typename TIME>
@@ -57,15 +57,15 @@ public:
 
         for (const auto &x : get_messages<typename fusion_controller_ports::in_accel>(mbs))
         {
-            in_accel = x;
+            in_accel = x.data;
         }
         for (const auto &x : get_messages<typename fusion_controller_ports::in_gyro>(mbs))
         {
-            in_gyro = x;
+            in_gyro = x.data;
         }
         for (const auto &x : get_messages<typename fusion_controller_ports::in_offset>(mbs))
         {
-            in_offset = x;
+            in_offset = x.data;
         }
         state.fused_angle = complimentary_filter(in_accel, in_gyro, in_offset);
         
@@ -83,7 +83,7 @@ public:
     {
         typename make_message_bags<output_ports>::type bags;
 
-        get_messages<typename fusion_controller_ports::out_fused_angle>(bags).push_back(state.fused_angle);
+        get_messages<typename fusion_controller_ports::out_fused_angle>(bags).push_back(cartesian_vector(state.fused_angle));
 
         return bags;
     }
@@ -92,13 +92,17 @@ public:
     TIME time_advance() const 
     {
         // + TODO: what should be time here ?
-        return state.active ? TIME("00:00:00:100") : std::numeric_limits<TIME>::infinity();
+        return state.active ? TIME("00:00:00:00") : std::numeric_limits<TIME>::infinity();
     }
 
     friend ostringstream& operator<<(ostringstream& os, const typename fusion_controller<TIME>::state_type& i) 
     {
+#if defined(RT_ARM_MBED)        
+        printf("fused_angle: x:%f y:%f z:%f\n", i.fused_angle[0], i.fused_angle[1], i.fused_angle[2]);
+#else
         os << "\n";
         os << "fused_angle:" << " x: " << i.fused_angle[0] << " y: " << i.fused_angle[1] << " z: " << i.fused_angle[2] << "\n";
+#endif
         return os;
     }
 };
