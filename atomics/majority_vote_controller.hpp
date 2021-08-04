@@ -25,12 +25,6 @@ struct majority_vote_controller_ports
     struct in_accel_3 : public in_port<cartesian_vector> {};
     struct in_gyro_3 : public in_port<cartesian_vector> {};
 
-    struct in_accel_4 : public in_port<cartesian_vector> {};
-    struct in_gyro_4 : public in_port<cartesian_vector> {};
-
-    struct in_accel_5 : public in_port<cartesian_vector> {};
-    struct in_gyro_5 : public in_port<cartesian_vector> {};
-
     struct out_gyro : public out_port<cartesian_vector> {};
     struct out_accel : public out_port<cartesian_vector> {};
     struct out_offset : public out_port<cartesian_vector> {};
@@ -42,9 +36,7 @@ class majority_vote_controller
 public:
     using input_ports = tuple<typename majority_vote_controller_ports::in_accel_1, typename majority_vote_controller_ports::in_gyro_1,
                                 typename majority_vote_controller_ports::in_accel_2, typename majority_vote_controller_ports::in_gyro_2,
-                                  typename majority_vote_controller_ports::in_accel_3, typename majority_vote_controller_ports::in_gyro_3,
-                                    typename majority_vote_controller_ports::in_accel_4, typename majority_vote_controller_ports::in_gyro_4,
-                                      typename majority_vote_controller_ports::in_accel_5, typename majority_vote_controller_ports::in_gyro_5>;
+                                  typename majority_vote_controller_ports::in_accel_3, typename majority_vote_controller_ports::in_gyro_3>;
 
     using output_ports = tuple<typename majority_vote_controller_ports::out_gyro, 
                                 typename majority_vote_controller_ports::out_accel, 
@@ -77,8 +69,8 @@ public:
     // external transition function
     void external_transition(TIME e, typename make_message_bags<input_ports>::type mbs)
     {
-        std::vector<vector<float>> in_accel_array(5);
-        std::vector<vector<float>> in_gyro_array(5);
+        std::vector<vector<float>> in_accel_array(3);
+        std::vector<vector<float>> in_gyro_array(3);
 
         for (const auto &x : get_messages<typename majority_vote_controller_ports::in_accel_1>(mbs))
         {
@@ -103,22 +95,6 @@ public:
         for (const auto &x : get_messages<typename majority_vote_controller_ports::in_gyro_3>(mbs))
         {
             in_gyro_array[2] = x.data;
-        }
-        for (const auto &x : get_messages<typename majority_vote_controller_ports::in_accel_4>(mbs))
-        {
-            in_accel_array[3] = x.data;
-        }
-        for (const auto &x : get_messages<typename majority_vote_controller_ports::in_gyro_4>(mbs))
-        {
-            in_gyro_array[3] = x.data;
-        }
-        for (const auto &x : get_messages<typename majority_vote_controller_ports::in_accel_5>(mbs))
-        {
-            in_accel_array[4] = x.data;
-        }
-        for (const auto &x : get_messages<typename majority_vote_controller_ports::in_gyro_5>(mbs))
-        {
-            in_gyro_array[4] = x.data;
         }
         std::vector<std::vector<float>> majority_vote_output = majority_vote_algorithm(in_accel_array, in_gyro_array);
 
@@ -155,9 +131,9 @@ public:
     friend ostringstream& operator<<(ostringstream& os, const typename majority_vote_controller<TIME>::state_type& i) 
     {
 #if defined(RT_ARM_MBED)        
-        printf("accelerometer: x:%f y:%f z:%f\n", i.accel_readings_vote[0], i.accel_readings_vote[1], i.accel_readings_vote[2]);
-        printf("gyroscope: x:%f y:%f z:%f\n", i.gyro_readings_vote[0], i.gyro_readings_vote[1], i.gyro_readings_vote[2]);
-        printf("IMU offset: x:%f y:%f z:%f\n", i.imu_offsets_vote[0], i.imu_offsets_vote[1], i.imu_offsets_vote[2]);
+        // printf("accelerometer: x:%f y:%f z:%f\n", i.accel_readings_vote[0], i.accel_readings_vote[1], i.accel_readings_vote[2]);
+        // printf("gyroscope: x:%f y:%f z:%f\n", i.gyro_readings_vote[0], i.gyro_readings_vote[1], i.gyro_readings_vote[2]);
+        // printf("IMU offset: x:%f y:%f z:%f\n", i.imu_offsets_vote[0], i.imu_offsets_vote[1], i.imu_offsets_vote[2]);
 #else
         os << "\n";
         os << "accelerometer:" << " x: " << i.accel_readings_vote[0] << " y: " << i.accel_readings_vote[1] << " z: " << i.accel_readings_vote[2] << "\n";

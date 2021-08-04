@@ -37,7 +37,7 @@ public:
     // default constructor
     gyroscope(PinName sda, PinName scl) noexcept
     {
-        refresh_rate = TIME("00:00:00:200");
+        refresh_rate = TIME("00:00:00:00");
         gyro = imu_driver.init(sda, scl);
     }
 

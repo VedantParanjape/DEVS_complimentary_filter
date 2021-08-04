@@ -37,7 +37,7 @@ public:
     // default constructor
     accelerometer(PinName sda, PinName scl) noexcept
     {
-        refresh_rate = TIME("00:00:00:200");
+        refresh_rate = TIME("00:00:00:00");
         accel = imu_driver.init(sda, scl);
     }
 
