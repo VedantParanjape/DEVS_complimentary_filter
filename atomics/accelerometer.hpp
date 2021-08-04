@@ -95,7 +95,6 @@ public:
 
     friend ostringstream& operator<<(ostringstream& os, const typename accelerometer<TIME>::state_type& i) 
     {
-        os << "accelerometer raw readings:" << " x: " << i.accel[0] << " y: " << i.accel[1] << " z: " << i.accel[2] << "\n";
         std::cout << "accelerometer raw readings:" << " x: " << i.accel[0] << " y: " << i.accel[1] << " z: " << i.accel[2] << "\n";
         
         return os;

@@ -95,7 +95,6 @@ public:
 
     friend ostringstream& operator<<(ostringstream& os, const typename gyroscope<TIME>::state_type& i) 
     {
-        os << "gyroscope raw readings:" << " x: " << i.gyro[0] << " y: " << i.gyro[1] << " z: " << i.gyro[2] << "\n";
         std::cout << "gyroscope raw readings:" << " x: " << i.gyro[0] << " y: " << i.gyro[1] << " z: " << i.gyro[2] << "\n";
         
         return os;
