@@ -103,9 +103,9 @@ public:
     friend ostringstream& operator<<(ostringstream& os, const typename imu_controller<TIME>::state_type& i) 
     {
 #if defined(RT_ARM_MBED)        
-        std::cout << "accelerometer:" << " x: " << i.accel_readings[0] << " y: " << i.accel_readings[1] << " z: " << i.accel_readings[2] << "\n";
-        std::cout << "gyroscope:" << " x: " << i.gyro_readings[0] << " y: " << i.gyro_readings[1] << " z: " << i.gyro_readings[2] << "\n";
-        std::cout << "IMU offset:" << " x: " << i.imu_offsets[0] << " y: " << i.imu_offsets[1] << " z: " << i.imu_offsets[2] << "\n";
+        // printf("accelerometer: x:%f y:%f z:%f\n", i.accel_readings[0], i.accel_readings[1], i.accel_readings[2]);
+        // printf("gyroscope: x:%f y:%f z:%f\n", i.gyro_readings[0], i.gyro_readings[1], i.gyro_readings[2]);
+        // printf("IMU offset: x:%f y:%f z:%f\n", i.imu_offsets[0], i.imu_offsets[1], i.imu_offsets[2]);
 #else
         os << "\n";
         os << "accelerometer:" << " x: " << i.accel_readings[0] << " y: " << i.accel_readings[1] << " z: " << i.accel_readings[2] << "\n";

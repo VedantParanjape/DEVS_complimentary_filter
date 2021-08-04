@@ -96,7 +96,7 @@ public:
     friend ostringstream& operator<<(ostringstream& os, const typename gyroscope<TIME>::state_type& i) 
     {
 #if defined(RT_ARM_MBED)
-        std::cout << "gyroscope raw readings:" << " x: " << i.gyro[0] << " y: " << i.gyro[1] << " z: " << i.gyro[2] << "\n";
+        // printf("gyroscope raw readings: x:%f y:%f z:%f\n", i.gyro[0], i.gyro[1], i.gyro[2]);
 #else
         os << "gyroscope raw readings:" << " x: " << i.gyro[0] << " y: " << i.gyro[1] << " z: " << i.gyro[2] << "\n";
 #endif

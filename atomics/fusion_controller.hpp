@@ -98,7 +98,7 @@ public:
     friend ostringstream& operator<<(ostringstream& os, const typename fusion_controller<TIME>::state_type& i) 
     {
 #if defined(RT_ARM_MBED)        
-        std::cout << "fused_angle:" << " x: " << i.fused_angle[0] << " y: " << i.fused_angle[1] << " z: " << i.fused_angle[2] << "\n";
+        printf("fused_angle: x:%f y:%f z:%f\n", i.fused_angle[0], i.fused_angle[1], i.fused_angle[2]);
 #else
         os << "\n";
         os << "fused_angle:" << " x: " << i.fused_angle[0] << " y: " << i.fused_angle[1] << " z: " << i.fused_angle[2] << "\n";

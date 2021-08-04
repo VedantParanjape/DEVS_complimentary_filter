@@ -94,9 +94,9 @@ public:
     }
 
     friend ostringstream& operator<<(ostringstream& os, const typename accelerometer<TIME>::state_type& i) 
-    {
+    {        
 #if defined(RT_ARM_MBED)
-        std::cout << "accelerometer raw readings:" << " x: " << i.accel[0] << " y: " << i.accel[1] << " z: " << i.accel[2] << "\n";
+        // printf("accelerometer raw readings: x:%f y:%f z:%f\n", i.accel[0], i.accel[1], i.accel[2]);
 #else
         os << "accelerometer raw readings:" << " x: " << i.accel[0] << " y: " << i.accel[1] << " z: " << i.accel[2] << "\n";
 #endif
