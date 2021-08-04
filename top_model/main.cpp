@@ -55,26 +55,6 @@ class InputReader : public iestream_input<float, T, iestream_input_defs<float>>
 };
 #endif
 
-// #include "mbed.h"
-// #include "MPU6050.h"
-// #include "driver.hpp"
-
-// int main()
-// {
-//     IMU imu_driver;
-//     MPU6050 *gyro = imu_driver.init(D14, D15);
-//     // MPU6050 *gyro = new MPU6050(D14, D15);
-
-//     while(1)
-//     {
-//         float readings[3];
-
-//         gyro->getGyro(readings);
-//         std::cout << readings[0] << " " << readings[1] << " " << readings[2] << std::endl;
-//         std::cout << gyro->testConnection() << std::endl;
-//     }
-// }
-
 int main()
 {
     // to measure simulation execution time
@@ -168,3 +148,23 @@ int main()
 
     return 0;
 }   
+
+// #include "mbed.h"
+// #include "MPU6050.h"
+// #include "driver.hpp"
+
+// int main()
+// {
+//     IMU imu_driver;
+//     MPU6050 *gyro = imu_driver.init(D14, D15);
+//     // MPU6050 *gyro = new MPU6050(D14, D15);
+
+//     while(1)
+//     {
+//         float readings[3];
+
+//         gyro->getGyro(readings);
+//         std::cout << readings[0] << " " << readings[1] << " " << readings[2] << std::endl;
+//         std::cout << gyro->testConnection() << std::endl;
+//     }
+// }
