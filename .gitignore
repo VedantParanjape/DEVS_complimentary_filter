@@ -60,6 +60,6 @@ __pycache__/
 
 ### CMake Patch ###
 # External projects
-*-prefix/
+mbed-os/
 cadmium/
 # End of https://www.toptal.com/developers/gitignore/api/cmake,c++
