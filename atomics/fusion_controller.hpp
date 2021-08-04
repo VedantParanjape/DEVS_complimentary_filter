@@ -4,7 +4,7 @@
 #include <cadmium/modeling/ports.hpp>
 #include <cadmium/modeling/message_bag.hpp>
 #include "complimentary_filter.hpp"
-
+#include "message.hpp"
 #include <assert.h>
 #include <string>
 #include <random>
@@ -15,11 +15,11 @@ using namespace std;
 
 struct fusion_controller_ports
 {
-    struct in_accel : public in_port<std::vector<float>> {};
-    struct in_gyro : public in_port<std::vector<float>> {};
-    struct in_offset: public in_port<std::vector<float>> {};
+    struct in_accel : public in_port<cartesion_vector> {};
+    struct in_gyro : public in_port<cartesion_vector> {};
+    struct in_offset: public in_port<cartesion_vector> {};
 
-    struct out_fused_angle : public out_port<std::vector<float>> {};
+    struct out_fused_angle : public out_port<cartesion_vector> {};
 };
 
 template <typename TIME>
@@ -57,15 +57,15 @@ public:
 
         for (const auto &x : get_messages<typename fusion_controller_ports::in_accel>(mbs))
         {
-            in_accel = x;
+            in_accel = x.data;
         }
         for (const auto &x : get_messages<typename fusion_controller_ports::in_gyro>(mbs))
         {
-            in_gyro = x;
+            in_gyro = x.data;
         }
         for (const auto &x : get_messages<typename fusion_controller_ports::in_offset>(mbs))
         {
-            in_offset = x;
+            in_offset = x.data;
         }
         state.fused_angle = complimentary_filter(in_accel, in_gyro, in_offset);
         
@@ -83,7 +83,7 @@ public:
     {
         typename make_message_bags<output_ports>::type bags;
 
-        get_messages<typename fusion_controller_ports::out_fused_angle>(bags).push_back(state.fused_angle);
+        get_messages<typename fusion_controller_ports::out_fused_angle>(bags).push_back(cartesion_vector(state.fused_angle));
 
         return bags;
     }

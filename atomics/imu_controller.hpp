@@ -3,7 +3,7 @@
 
 #include <cadmium/modeling/ports.hpp>
 #include <cadmium/modeling/message_bag.hpp>
-
+#include "message.hpp"
 #include <assert.h>
 #include <string>
 #include <random>
@@ -22,9 +22,9 @@ struct imu_controller_ports
     struct in_gyro_y : public in_port<float> {};
     struct in_gyro_z : public in_port<float> {};
 
-    struct out_gyro : public out_port<std::vector<float>> {};
-    struct out_accel : public out_port<std::vector<float>> {};
-    struct out_offset : public out_port<std::vector<float>> {};
+    struct out_gyro : public out_port<cartesion_vector> {};
+    struct out_accel : public out_port<cartesion_vector> {};
+    struct out_offset : public out_port<cartesion_vector> {};
 };
 
 template <typename TIME>
@@ -87,9 +87,9 @@ public:
         typename make_message_bags<output_ports>::type bags;
         
         // + TODO: add checking for validity of the data
-        get_messages<typename imu_controller_ports::out_accel>(bags).push_back(state.accel_readings);
-        get_messages<typename imu_controller_ports::out_gyro>(bags).push_back(state.gyro_readings);
-        get_messages<typename imu_controller_ports::out_offset>(bags).push_back(state.imu_offsets);
+        get_messages<typename imu_controller_ports::out_accel>(bags).push_back(cartesion_vector(state.accel_readings));
+        get_messages<typename imu_controller_ports::out_gyro>(bags).push_back(cartesion_vector(state.gyro_readings));
+        get_messages<typename imu_controller_ports::out_offset>(bags).push_back(cartesion_vector(state.imu_offsets));
 
         return bags;
     }

@@ -8,9 +8,16 @@
 
 using namespace std;
 
-template<typename T>
-ostream& operator<<(ostream& os, const vector<T>& msg);
-template<typename T>
-istream& operator>> (istream& is, vector<T>& msg);
+
+struct cartesion_vector{
+  cartesion_vector() {}
+  cartesion_vector(std::vector<float> in)
+        : data(in) {}
+        
+    std::vector<float> data;
+};
+
+ostream& operator<<(ostream& os, const cartesion_vector& msg);
+istream& operator>> (istream& is, cartesion_vector& msg);
 
 #endif
