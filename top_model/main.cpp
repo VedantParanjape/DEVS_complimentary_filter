@@ -103,7 +103,7 @@ int main()
 
     cadmium::dynamic::engine::runner<NDTime, cadmium::logger::not_logger> run(TOP, NDTime("00:00:00"));
 
-    run.run_until(NDTime("00:00:31:300"));
+    run.run_until_passivate();
 
     return 0;
 }   

@@ -7,7 +7,7 @@
 #include <chrono>
 #include <cstdint>
 
-const float threshold = 0.02;
+const float threshold = 0.5;
 
 float majortiy_vote_algorithm_helper(std::vector<float> data)
 {
@@ -40,16 +40,16 @@ float majortiy_vote_algorithm_helper(std::vector<float> data)
             count++;
         }
     }
+    
     if (count > data.size() / 2)
     {
         majority_reading = data[maj_index];
     }
-
-    // else
-    // {
-    //     for (auto &i: data) majority_reading += i;
-    //     majority_reading = majority_reading / data.size();
-    // }
+    else
+    {
+        for (auto &i: data) majority_reading += i;
+        majority_reading = majority_reading / data.size();
+    }
 
     return majority_reading;
 }
