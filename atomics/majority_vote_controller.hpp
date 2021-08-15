@@ -131,9 +131,8 @@ public:
     friend ostringstream& operator<<(ostringstream& os, const typename majority_vote_controller<TIME>::state_type& i) 
     {
 #if defined(RT_ARM_MBED)        
-        // printf("accelerometer: x:%f y:%f z:%f\n", i.accel_readings_vote[0], i.accel_readings_vote[1], i.accel_readings_vote[2]);
-        // printf("gyroscope: x:%f y:%f z:%f\n", i.gyro_readings_vote[0], i.gyro_readings_vote[1], i.gyro_readings_vote[2]);
-        // printf("IMU offset: x:%f y:%f z:%f\n", i.imu_offsets_vote[0], i.imu_offsets_vote[1], i.imu_offsets_vote[2]);
+        printf("am;%f;%f;%f\n", i.accel_readings_vote[0], i.accel_readings_vote[1], i.accel_readings_vote[2]);
+        printf("gm;%f;%f;%f\n", i.gyro_readings_vote[0], i.gyro_readings_vote[1], i.gyro_readings_vote[2]);
 #else
         os << "\n";
         os << "accelerometer:" << " x: " << i.accel_readings_vote[0] << " y: " << i.accel_readings_vote[1] << " z: " << i.accel_readings_vote[2] << "\n";

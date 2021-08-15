@@ -38,12 +38,12 @@ int main()
     using AtomicModelPtr = std::shared_ptr<cadmium::dynamic::modeling::model>;
     using CoupledModelPtr = std::shared_ptr<cadmium::dynamic::modeling::coupled<TIME>>;
 
-    AtomicModelPtr accelerometer_model_0 = cadmium::dynamic::translate::make_dynamic_atomic_model<accelerometer, TIME>("accelerometer_0", D14, D15);
-    AtomicModelPtr gyroscope_model_0 = cadmium::dynamic::translate::make_dynamic_atomic_model<gyroscope, TIME>("gyroscope_0", D14, D15);
-    AtomicModelPtr accelerometer_model_1 = cadmium::dynamic::translate::make_dynamic_atomic_model<accelerometer, TIME>("accelerometer_1", D3, D6);
-    AtomicModelPtr gyroscope_model_1 = cadmium::dynamic::translate::make_dynamic_atomic_model<gyroscope, TIME>("gyroscope_1", D3, D6);
-    AtomicModelPtr accelerometer_model_2 = cadmium::dynamic::translate::make_dynamic_atomic_model<accelerometer, TIME>("accelerometer_2", D5, D7);
-    AtomicModelPtr gyroscope_model_2 = cadmium::dynamic::translate::make_dynamic_atomic_model<gyroscope, TIME>("gyroscope_2", D5, D7);
+    AtomicModelPtr accelerometer_model_0 = cadmium::dynamic::translate::make_dynamic_atomic_model<accelerometer, TIME>("accelerometer_0", D14, D15, 0);
+    AtomicModelPtr gyroscope_model_0 = cadmium::dynamic::translate::make_dynamic_atomic_model<gyroscope, TIME>("gyroscope_0", D14, D15, 0);
+    AtomicModelPtr accelerometer_model_1 = cadmium::dynamic::translate::make_dynamic_atomic_model<accelerometer, TIME>("accelerometer_1", D3, D6, 1);
+    AtomicModelPtr gyroscope_model_1 = cadmium::dynamic::translate::make_dynamic_atomic_model<gyroscope, TIME>("gyroscope_1", D3, D6, 1);
+    AtomicModelPtr accelerometer_model_2 = cadmium::dynamic::translate::make_dynamic_atomic_model<accelerometer, TIME>("accelerometer_2", D5, D7, 2);
+    AtomicModelPtr gyroscope_model_2 = cadmium::dynamic::translate::make_dynamic_atomic_model<gyroscope, TIME>("gyroscope_2", D5, D7, 2);
 
     AtomicModelPtr imu_controller_model_0 = cadmium::dynamic::translate::make_dynamic_atomic_model<imu_controller, TIME>("imu_controller_0");
     AtomicModelPtr imu_controller_model_1 = cadmium::dynamic::translate::make_dynamic_atomic_model<imu_controller, TIME>("imu_controller_1");

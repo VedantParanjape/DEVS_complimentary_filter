@@ -29,28 +29,32 @@ private:
     TIME refresh_rate;
     IMU imu_driver;
     MPU6050 *accel;
+    int id_;
 
 public:
     using input_ports = tuple<>;
     using output_ports = tuple<typename accelerometer_ports::out_x, typename accelerometer_ports::out_y, typename accelerometer_ports::out_z>;
     
     // default constructor
-    accelerometer(PinName sda, PinName scl) noexcept
+    accelerometer(PinName sda, PinName scl, int id) noexcept
     {
-        refresh_rate = TIME("00:00:00:300");
+        refresh_rate = TIME("00:00:00:000");
         accel = imu_driver.init(sda, scl);
+        id_ = id;
     }
 
     // parameterized constructor
-    accelerometer(TIME refresh_rate_sensor, PinName sda, PinName scl)
+    accelerometer(TIME refresh_rate_sensor, PinName sda, PinName scl, int id)
     {
         refresh_rate = refresh_rate_sensor;
         accel = imu_driver.init(sda, scl);
+        id_ = id;
     }
 
     struct state_type
     {
         std::vector<float> accel;
+        int id;
     }; 
     state_type state;
 
@@ -60,6 +64,7 @@ public:
         float readings[3];
         accel->getAccelero(readings);
         state.accel = {readings[0], readings[1], readings[2]};
+        state.id = id_;
     }
     
     // external transition function
@@ -96,7 +101,7 @@ public:
     friend ostringstream& operator<<(ostringstream& os, const typename accelerometer<TIME>::state_type& i) 
     {        
 #if defined(RT_ARM_MBED)
-        // printf("accelerometer raw readings: x:%f y:%f z:%f\n", i.accel[0], i.accel[1], i.accel[2]);
+        printf("a%d;%f;%f;%f\n", i.id, i.accel[0], i.accel[1], i.accel[2]);
 #else
         os << "accelerometer raw readings:" << " x: " << i.accel[0] << " y: " << i.accel[1] << " z: " << i.accel[2] << "\n";
 #endif
