@@ -132,26 +132,38 @@ majority_accel_x = np.arctan2(majority_accel_x, np.power(np.power(majority_accel
 majority_accel_y = np.arctan2(majority_accel_y, np.power(np.power(majority_accel_x, 2) + np.power(majority_accel_z, 2), 0.5))*180/np.math.pi
 majority_accel_z = np.arctan2(majority_accel_z, np.power(np.power(majority_accel_x, 2) + np.power(majority_accel_y, 2), 0.5))*180/np.math.pi
 
-sum = 0
-gyro_x_1 = np.array([sum := sum + i*1.5 for i in gyro_x_1])
-sum = 0
-gyro_y_1 = np.array([sum := sum + i*1.5 for i in gyro_y_1])
-sum = 0
-gyro_z_1 = np.array([sum := sum + i*1.5 for i in gyro_z_1])
+gyro_x_1[0] = accel_x_1[0]
+gyro_y_1[0] = accel_y_1[0]
+gyro_z_1[0] = accel_z_1[0]
+
+gyro_x_2[0] = accel_x_2[0]
+gyro_y_2[0] = accel_y_2[0]
+gyro_z_2[0] = accel_z_2[0]
+
+gyro_x_3[0] = accel_x_3[0]
+gyro_y_3[0] = accel_y_3[0]
+gyro_z_3[0] = accel_z_3[0]
 
 sum = 0
-gyro_x_2 = np.array([sum := sum + i*1.5 for i in gyro_x_2])
+gyro_x_1 = np.array([sum := sum + gyro_x_1[i]*1.5 for i in range(len(gyro_x_1))])
 sum = 0
-gyro_y_2 = np.array([sum := sum + i*1.5 for i in gyro_y_2])
+gyro_y_1 = np.array([sum := sum + gyro_y_1[i]*1.5 for i in range(len(gyro_y_1))])
 sum = 0
-gyro_z_2 = np.array([sum := sum + i*1.5 for i in gyro_z_2])
+gyro_z_1 = np.array([sum := sum + gyro_z_1[i]*1.5 for i in range(len(gyro_z_1))])
 
 sum = 0
-gyro_x_2 = np.array([sum := sum + i*1.5 for i in gyro_x_2])
+gyro_x_2 = np.array([sum := sum + gyro_x_2[i]*1.5 for i in range(len(gyro_x_2))])
 sum = 0
-gyro_y_2 = np.array([sum := sum + i*1.5 for i in gyro_y_2])
+gyro_y_2 = np.array([sum := sum + gyro_y_2[i]*1.5 for i in range(len(gyro_y_2))])
 sum = 0
-gyro_z_2 = np.array([sum := sum + i*1.5 for i in gyro_z_2])
+gyro_z_2 = np.array([sum := sum + gyro_z_2[i]*1.5 for i in range(len(gyro_z_2))])
+
+sum = 0
+gyro_x_3 = np.array([sum := sum + gyro_x_3[i]*1.5 for i in range(len(gyro_x_3))])
+sum = 0
+gyro_y_3 = np.array([sum := sum + gyro_y_3[i]*1.5 for i in range(len(gyro_y_3))])
+sum = 0
+gyro_z_3 = np.array([sum := sum + gyro_z_3[i]*1.5 for i in range(len(gyro_z_3))])
 
 sum = 0
 majority_gyro_x = np.array([sum := sum + i*1.5 for i in majority_gyro_x])
@@ -160,7 +172,7 @@ majority_gyro_y = np.array([sum := sum + i*1.5 for i in majority_gyro_y])
 sum = 0
 majority_gyro_z = np.array([sum := sum + i*1.5 for i in majority_gyro_z])
 
-plt.ylim(-100, 100)
+# plt.ylim(-100, 100)
 # plt.plot(accel_x_1, label="acceleration_angle (X)")
 # plt.plot(accel_x_2, label="acceleration_angle (X)")
 # plt.plot(accel_x_3, label="acceleration_angle (X)")
