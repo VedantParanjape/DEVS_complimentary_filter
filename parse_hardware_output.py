@@ -144,6 +144,10 @@ gyro_x_3[0] = accel_x_3[0]
 gyro_y_3[0] = accel_y_3[0]
 gyro_z_3[0] = accel_z_3[0]
 
+majority_gyro_x[0] = majority_accel_x[0]
+majority_gyro_y[0] = majority_accel_y[0]
+majority_gyro_z[0] = majority_accel_z[0]
+
 sum = 0
 gyro_x_1 = np.array([sum := sum + gyro_x_1[i]*1.5 for i in range(len(gyro_x_1))])
 sum = 0
