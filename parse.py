@@ -55,10 +55,10 @@ for i in range(0, 5):
     outfile_a_z_ = outfile_a_z[i]
     time_counter = 0
     for j in accel_readings:
-        outfile_a_x_.write(time.strftime("%H:%M:%S", time.gmtime(time_counter/1000)) + f":{int((time_counter%1000)/100)}00 " + f"{float(j[0]) + delta[i]}\n")
-        outfile_a_y_.write(time.strftime("%H:%M:%S", time.gmtime(time_counter/1000)) + f":{int((time_counter%1000)/100)}00 " + f"{float(j[1]) + delta[i]}\n")
-        outfile_a_z_.write(time.strftime("%H:%M:%S", time.gmtime(time_counter/1000)) + f":{int((time_counter%1000)/100)}00 " + f"{float(j[2]) + delta[i]}\n")
-        time_counter = time_counter + 100
+        outfile_a_x_.write(time.strftime("%H:%M:%S", time.gmtime(time_counter/1000)) + f":{time_counter%1000:03} " + f"{float(j[0]) + delta[i]}\n")
+        outfile_a_y_.write(time.strftime("%H:%M:%S", time.gmtime(time_counter/1000)) + f":{time_counter%1000:03} " + f"{float(j[1]) + delta[i]}\n")
+        outfile_a_z_.write(time.strftime("%H:%M:%S", time.gmtime(time_counter/1000)) + f":{time_counter%1000:03} " + f"{float(j[2]) + delta[i]}\n")
+        time_counter = time_counter + 10
 
 for i in range(0, 5):
     outfile_g_x_ = outfile_g_x[i]
@@ -66,10 +66,10 @@ for i in range(0, 5):
     outfile_g_z_ = outfile_g_z[i]
     time_counter = 0
     for j in gyro_readings:
-        outfile_g_x_.write(time.strftime("%H:%M:%S", time.gmtime(time_counter/1000)) + f":{int((time_counter%1000)/100)}00 " + f"{float(j[0]) + delta[i]}\n")
-        outfile_g_y_.write(time.strftime("%H:%M:%S", time.gmtime(time_counter/1000)) + f":{int((time_counter%1000)/100)}00 " + f"{float(j[1]) + delta[i]}\n")
-        outfile_g_z_.write(time.strftime("%H:%M:%S", time.gmtime(time_counter/1000)) + f":{int((time_counter%1000)/100)}00 " + f"{float(j[2]) + delta[i]}\n")
-        time_counter = time_counter + 100
+        outfile_g_x_.write(time.strftime("%H:%M:%S", time.gmtime(time_counter/1000)) + f":{time_counter%1000:03} " + f"{float(j[0]) + delta[i]}\n")
+        outfile_g_y_.write(time.strftime("%H:%M:%S", time.gmtime(time_counter/1000)) + f":{time_counter%1000:03} " + f"{float(j[1]) + delta[i]}\n")
+        outfile_g_z_.write(time.strftime("%H:%M:%S", time.gmtime(time_counter/1000)) + f":{time_counter%1000:03} " + f"{float(j[2]) + delta[i]}\n")
+        time_counter = time_counter + 10
 
 print(len(accel_readings))
 print(len(gyro_readings))
